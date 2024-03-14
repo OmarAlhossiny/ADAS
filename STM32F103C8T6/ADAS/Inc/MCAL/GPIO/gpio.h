@@ -11,19 +11,14 @@
 
 /**********************************Include section start***********************************/
 #include <Common/std_types.h>
-
-
+#include <Common/STM32F10xxx_Peripheral_Defs.h>
+#include <Common/STM32F10xxx_HAL_Def.h>
+#include <MCAL/RCC/rcc.h>
 /**********************************Include section end*************************************/
 
 /**********************************Macro declaration start*********************************/
 
-#define PORTA_BASE    ((GPIO_Types*)0x40010800)
-#define PORTB_BASE    ((GPIO_Types*)0x40010C00)
-#define PORTC_BASE    ((GPIO_Types*)0x40011000)
-#define PORTD_BASE    ((GPIO_Types*)0x40011400)
-#define PORTE_BASE    ((GPIO_Types*)0x40011800)
-#define PORTF_BASE    ((GPIO_Types*)0x40011C00)
-#define PORTG_BASE    ((GPIO_Types*)0x40012000)
+
 
 
 #define GPIO_MODE_INPUT_ANALOG                               0x00000000UL
@@ -56,21 +51,6 @@
 /**********************************Macro function declaration end**************************/
 
 /**********************************Data type declaration start*****************************/
-
-typedef struct
-{
-	volatile uint_32 CR[2];          // offset->0x00, Port configuration register low
-	                                 // offset->0x04, Port configuration register high
-	volatile uint_32 IDR;            // offset->0x08, Port input data register
-	volatile uint_32 ODR;            // offset->0x0c, Port output data register
-	volatile uint_32 BSRR;           // offset->0x10, Port bit set/reset register
-	volatile uint_32 BRR;            // offset->0x14, Port bit reset register
-	volatile uint_32 LCKR;           // offset->0x18, Port configuration lock register
-	volatile uint_32 reserved[249];
-}GPIO_Types;
-
-
-
 typedef enum
 {
 	PORTA = 0,
@@ -131,8 +111,8 @@ typedef struct
  * /brief     GPIO Pin initialize
  * /Details   Initialize GPIO Pin direction and Mode
  * /param[in] config pointer to GPIO pin configuration
- * /return    OK       ->   GPIO pin successfully Initialized
- *            NOT_OK   ->   GPIO pin Initialization failed
+ * /return    HAL_OK       ->   GPIO pin successfully Initialized
+ *            HAL_NOT_OK   ->   GPIO pin Initialization failed
  */
 Std_Return_t GPIO_Pin_Direction_Initialize(const GPIO_Config* config);
 
@@ -141,8 +121,8 @@ Std_Return_t GPIO_Pin_Direction_Initialize(const GPIO_Config* config);
  * /Details   Get the mode of the GPIO Pin
  * /param[in] config pointer to GPIO pin configuration
  * /param[in] mode pointer to store mode value
- * /return    OK       ->   GPIO pin successfully Initialized
- *            NOT_OK   ->   GPIO pin Initialization failed
+ * /return    HAL_OK       ->   GPIO pin successfully Initialized
+ *            HAL_NOT_OK   ->   GPIO pin Initialization failed
  */
 Std_Return_t GPIO_Pin_Get_Mode(const GPIO_Config* config,uint_32* mode);
 
@@ -151,8 +131,8 @@ Std_Return_t GPIO_Pin_Get_Mode(const GPIO_Config* config,uint_32* mode);
  * /Details   Write 0 or 1 on the GPIO Pin
  * /param[in] config pointer to GPIO pin configuration
  * /param[in] logic variable to store the desired logic
- * /return    OK       ->   GPIO pin successfully Initialized
- *            NOT_OK   ->   GPIO pin Initialization failed
+ * /return    HAL_OK       ->   GPIO pin successfully Initialized
+ *            HAL_NOT_OK   ->   GPIO pin Initialization failed
  */
 Std_Return_t GPIO_Pin_Write_logic(const GPIO_Config* config,PIN_LOGIC logic);
 
@@ -170,8 +150,8 @@ Std_Return_t GPIO_Pin_Read_logic(const GPIO_Config* config,PIN_LOGIC* logic);
  * /brief     GPIO Pin Toggle logic
  * /Details   Toggle GPIO Pin logic
  * /param[in] config pointer to GPIO pin configuration
- * /return    OK       ->   GPIO pin successfully Initialized
- *            NOT_OK   ->   GPIO pin Initialization failed
+ * /return    HAL_OK       ->   GPIO pin successfully Initialized
+ *            HAL_NOT_OK   ->   GPIO pin Initialization failed
  */
 Std_Return_t GPIO_Pin_Toggle_logic(const GPIO_Config* config);
 

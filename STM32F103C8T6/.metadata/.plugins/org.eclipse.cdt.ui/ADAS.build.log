@@ -1,24 +1,10 @@
-14:07:23 **** Build of configuration Debug for project ADAS ****
+13:57:36 **** Incremental Build of configuration Debug for project ADAS ****
 make -j8 all 
-arm-none-eabi-gcc -mcpu=cortex-m3 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32f103c8tx.d" -MT"Startup/startup_stm32f103c8tx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Startup/startup_stm32f103c8tx.o" "../Startup/startup_stm32f103c8tx.s"
-arm-none-eabi-gcc "../Src/MCAL/RCC/rcc.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/MCAL/RCC/rcc.d" -MT"Src/MCAL/RCC/rcc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/MCAL/RCC/rcc.o"
-arm-none-eabi-gcc "../Src/MCAL/GPIO/gpio.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/MCAL/GPIO/gpio.d" -MT"Src/MCAL/GPIO/gpio.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/MCAL/GPIO/gpio.o"
-arm-none-eabi-gcc "../Src/CortexM3/Cortex-M3_SCB.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/CortexM3/Cortex-M3_SCB.d" -MT"Src/CortexM3/Cortex-M3_SCB.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/CortexM3/Cortex-M3_SCB.o"
-arm-none-eabi-gcc "../Src/CortexM3/Cortex_M3_NVIC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/CortexM3/Cortex_M3_NVIC.d" -MT"Src/CortexM3/Cortex_M3_NVIC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/CortexM3/Cortex_M3_NVIC.o"
-arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
-arm-none-eabi-gcc "../Src/syscalls.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/syscalls.d" -MT"Src/syscalls.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/syscalls.o"
-arm-none-eabi-gcc "../Src/sysmem.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/sysmem.d" -MT"Src/sysmem.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/sysmem.o"
-arm-none-eabi-gcc -o "ADAS.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\REPO\ADAS\STM32F103C8T6\ADAS\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADAS.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: ADAS.elf
- 
 arm-none-eabi-size  ADAS.elf 
-arm-none-eabi-objdump -h -S ADAS.elf  > "ADAS.list"
    text	   data	    bss	    dec	    hex	filename
-   1004	     44	   1572	   2620	    a3c	ADAS.elf
+   1556	     80	   1568	   3204	    c84	ADAS.elf
 Finished building: default.size.stdout
  
-Finished building: ADAS.list
- 
 
-14:07:24 Build Finished. 0 errors, 0 warnings. (took 1s.960ms)
+13:57:37 Build Finished. 0 errors, 0 warnings. (took 227ms)
 

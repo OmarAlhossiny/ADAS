@@ -1,0 +1,92 @@
+/**
+ ******************************************************************************
+ * @file           : rcc.h
+ * @author         : Omar_Alhossiny
+ * @brief          : RCC driver file interface
+ ******************************************************************************
+**/
+
+#ifndef MCAL_RCC_RCC_H_
+#define MCAL_RCC_RCC_H_
+
+/**********************************Include section start***********************************/
+#include <Common/std_types.h>
+
+/**********************************Include section end*************************************/
+
+/**********************************Macro declaration start*********************************/
+
+/*********************************PLL Multiplication factor********************************/
+#define RCC_PLL_MULTIPLICATION_FACTOR_2      	  0x00000000UL
+#define RCC_PLL_MULTIPLICATION_FACTOR_3   		  0x00040000UL
+#define RCC_PLL_MULTIPLICATION_FACTOR_4    		  0x00080000UL
+#define RCC_PLL_MULTIPLICATION_FACTOR_5           0x000C0000UL
+#define RCC_PLL_MULTIPLICATION_FACTOR_6       	  0x00100000UL
+#define RCC_PLL_MULTIPLICATION_FACTOR_7     	  0x00140000UL
+#define RCC_PLL_MULTIPLICATION_FACTOR_8       	  0x00180000UL
+#define RCC_PLL_MULTIPLICATION_FACTOR_9    		  0x001C0000UL
+#define RCC_PLL_MULTIPLICATION_FACTOR_10      	  0x00200000UL
+#define RCC_PLL_MULTIPLICATION_FACTOR_11      	  0x00240000UL
+#define RCC_PLL_MULTIPLICATION_FACTOR_12    	  0x00280000UL
+#define RCC_PLL_MULTIPLICATION_FACTOR_13     	  0x002C0000UL
+#define RCC_PLL_MULTIPLICATION_FACTOR_14     	  0x00300000UL
+#define RCC_PLL_MULTIPLICATION_FACTOR_15          0x00240000UL
+#define RCC_PLL_MULTIPLICATION_FACTOR_16          0x00280000UL
+
+/*********************************Microcontroler clock output*****************************/
+#define RCC_MICROCONTROLLER_CLOCK_OUT_NO_CLOCK    0x00000000U
+#define RCC_MICROCONTROLLER_CLOCK_OUT_SYSCLK      0x04000000U
+#define RCC_MICROCONTROLLER_CLOCK_OUT_HSI         0x05000000U
+#define RCC_MICROCONTROLLER_CLOCK_OUT_HSE         0x06000000U
+#define RCC_MICROCONTROLLER_CLOCK_OUT_PLL         0x07000000U
+
+/***************************************ADC Prescaler*************************************/
+#define RCC_ADC_PRESCALER_DIV2                    0x00000000UL
+#define RCC_ADC_PRESCALER_DIV4                    0x00004000UL
+#define RCC_ADC_PRESCALER_DIV6                    0x00008000UL
+#define RCC_ADC_PRESCALER_DIV8                    0x0000C000UL
+
+/******************************APB high-speed Prescaler (APB2)*****************************/
+#define RCC_APB_HIGH_SPEED_PRESCALER_APB2_DIV1    0x00000000UL
+#define RCC_APB_HIGH_SPEED_PRESCALER_APB2_DIV2    0x00002000UL
+#define RCC_APB_HIGH_SPEED_PRESCALER_APB2_DIV4    0x00002800UL
+#define RCC_APB_HIGH_SPEED_PRESCALER_APB2_DIV8    0x00003000UL
+#define RCC_APB_HIGH_SPEED_PRESCALER_APB2_DIV16   0x00003800UL
+
+/******************************APB low-speed Prescaler (APB1)*****************************/
+#define RCC_APB_LOW_SPEED_PRESCALER_APB1_DIV1    0x00000000UL
+#define RCC_APB_LOW_SPEED_PRESCALER_APB1_DIV2    0x00000400UL
+#define RCC_APB_LOW_SPEED_PRESCALER_APB1_DIV4    0x00000500UL
+#define RCC_APB_LOW_SPEED_PRESCALER_APB1_DIV8    0x00000600UL
+#define RCC_APB_LOW_SPEED_PRESCALER_APB1_DIV16   0x00000700UL
+
+/*************************************AHB prescaler***************************************/
+#define RCC_AHB_PRESCALER_DIV1                   0x00000000UL
+#define RCC_AHB_PRESCALER_DIV2                   0x00000080UL
+#define RCC_AHB_PRESCALER_DIV4                   0x00000090UL
+#define RCC_AHB_PRESCALER_DIV8                   0x000000A0UL
+#define RCC_AHB_PRESCALER_DIV16                  0x000000B0UL
+#define RCC_AHB_PRESCALER_DIV64                  0x000000C0UL
+#define RCC_AHB_PRESCALER_DIV128                 0x000000D0UL
+#define RCC_AHB_PRESCALER_DIV256                 0x000000E0UL
+#define RCC_AHB_PRESCALER_DIV512                 0x000000F0UL
+
+
+
+/**********************************Macro declaration end***********************************/
+
+/**********************************Macro function declaration start************************/
+
+/**********************************Macro function declaration end**************************/
+
+/**********************************Data type declaration start*****************************/
+
+
+
+/**********************************Data type declaration end*******************************/
+
+/**********************************Software interface declaration start********************/
+
+/**********************************Software interface declaration end**********************/
+
+#endif /* MCAL_RCC_RCC_H_ */

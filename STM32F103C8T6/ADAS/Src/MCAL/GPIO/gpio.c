@@ -16,28 +16,25 @@ volatile GPIO_Types* GPIO[7] = {PORTA_BASE,PORTB_BASE,PORTC_BASE,PORTD_BASE,PORT
  * /brief     GPIO Pin initialize
  * /Details   Initialize GPIO Pin direction and Mode
  * /param[in] config pointer to GPIO pin configuration
- * /return    OK       ->   GPIO pin successfully Initialized
- *            NOT_OK   ->   GPIO pin Initialization failed
+ * /return    HAL_OK       ->   GPIO pin successfully Initialized
+ *            HAL_NOT_OK   ->   GPIO pin Initialization failed
  */
 Std_Return_t GPIO_Pin_Direction_Initialize(const GPIO_Config* config)
 {
-	Std_Return_t RET = OK;
+	Std_Return_t RET = HAL_OK;
 	uint_32 mode_temp;
 	uint_32 mask = 0x0000000FUL;
-	uint_32 port_register;
 	if(config == NULL)
 	{
-		RET = NOT_OK;
+		RET = HAL_NOT_OK;
 	}
 	else
 	{
-		port_register = GPIO[config->port]->CR[config->pin / 8];
+		RCC_APB2_GPIO_CLOCK_ENABLE(config->port);
 		mode_temp = config->mode;
 		mode_temp <<= ((config->pin % 8) * 4);
-		mask = ~(mask << ((config->pin % 8) * 4));
-		port_register &= mask;
-		port_register |= mode_temp;
-		GPIO[config->port]->CR[config->pin / 8] = port_register;
+		mask = (mask << ((config->pin % 8) * 4));
+		MODIFY_REG(GPIO[config->port]->CR[config->pin / 8],mask,mode_temp);
 		if(config->mode == GPIO_MODE_INPUT_PULL_UP_DOWN)
 		{
 			if(config->state == PULL_DOWN)
@@ -50,8 +47,20 @@ Std_Return_t GPIO_Pin_Direction_Initialize(const GPIO_Config* config)
 			}
 			else
 			{
-				RET = NOT_OK;
+				RET = HAL_NOT_OK;
 			}
+		}
+		if(config->logic == GPIO_LOW)
+		{
+			RET = GPIO_Pin_Write_logic(config,GPIO_LOW);
+		}
+		else if(config->logic == GPIO_HIGH)
+		{
+			RET = GPIO_Pin_Write_logic(config,GPIO_HIGH);
+		}
+		else
+		{
+			RET = HAL_NOT_OK;
 		}
 
 	}
@@ -63,17 +72,17 @@ Std_Return_t GPIO_Pin_Direction_Initialize(const GPIO_Config* config)
  * /Details   Get the mode of the GPIO Pin
  * /param[in] config pointer to GPIO pin configuration
  * /param[in] mode pointer to store mode value
- * /return    OK       ->   GPIO pin successfully Initialized
- *            NOT_OK   ->   GPIO pin Initialization failed
+ * /return    HAL_OK       ->   GPIO pin successfully Initialized
+ *            HAL_NOT_OK   ->   GPIO pin Initialization failed
  */
 Std_Return_t GPIO_Pin_Get_Mode(const GPIO_Config* config,uint_32* mode)
 {
-	Std_Return_t RET = OK;
+	Std_Return_t RET = HAL_OK;
 	uint_32 mode_temp;
 	uint_32 mask = 0x0000000FUL;
 	if((config == NULL) || (mode == NULL))
 	{
-		RET = NOT_OK;
+		RET = HAL_NOT_OK;
 	}
 	else
 	{
@@ -90,16 +99,16 @@ Std_Return_t GPIO_Pin_Get_Mode(const GPIO_Config* config,uint_32* mode)
  * /Details   Write 0 or 1 on the GPIO Pin
  * /param[in] config pointer to GPIO pin configuration
  * /param[in] logic variable to store the desired logic
- * /return    OK       ->   GPIO pin successfully Initialized
- *            NOT_OK   ->   GPIO pin Initialization failed
+ * /return    HAL_OK       ->   GPIO pin successfully Initialized
+ *            HAL_NOT_OK   ->   GPIO pin Initialization failed
  */
 Std_Return_t GPIO_Pin_Write_logic(const GPIO_Config* config,PIN_LOGIC logic)
 {
-	Std_Return_t RET = OK;
+	Std_Return_t RET = HAL_OK;
 	uint_32 logic_temp = 0x00000001UL;
 	if(config == NULL)
 	{
-		RET = NOT_OK;
+		RET = HAL_NOT_OK;
 	}
 	else
 	{
@@ -115,7 +124,7 @@ Std_Return_t GPIO_Pin_Write_logic(const GPIO_Config* config,PIN_LOGIC logic)
 		}
 		else
 		{
-			RET = NOT_OK;
+			RET = HAL_NOT_OK;
 		}
 	}
 	return RET;
@@ -126,16 +135,16 @@ Std_Return_t GPIO_Pin_Write_logic(const GPIO_Config* config,PIN_LOGIC logic)
  * /Details   Read 0 or 1 From the GPIO Pin
  * /param[in] config pointer to GPIO pin configuration
  * /param[in] logic pointer to store pin logic value
- * /return    OK       ->   GPIO pin successfully Initialized
- *            NOT_OK   ->   GPIO pin Initialization failed
+ * /return    HAL_OK       ->   GPIO pin successfully Initialized
+ *            HAL_NOT_OK   ->   GPIO pin Initialization failed
  */
 Std_Return_t GPIO_Pin_Read_logic(const GPIO_Config* config,PIN_LOGIC* logic)
 {
-	Std_Return_t RET = OK;
+	Std_Return_t RET = HAL_OK;
 	uint_32 logic_temp = 0x00000001UL;
 	if((config == NULL) || (logic == NULL))
 	{
-		RET = NOT_OK;
+		RET = HAL_NOT_OK;
 	}
 	else
 	{
@@ -157,15 +166,15 @@ Std_Return_t GPIO_Pin_Read_logic(const GPIO_Config* config,PIN_LOGIC* logic)
  * /brief     GPIO Pin Toggle logic
  * /Details   Toggle GPIO Pin logic
  * /param[in] config pointer to GPIO pin configuration
- * /return    OK       ->   GPIO pin successfully Initialized
- *            NOT_OK   ->   GPIO pin Initialization failed
+ * /return    HAL_OK       ->   GPIO pin successfully Initialized
+ *            HAL_NOT_OK   ->   GPIO pin Initialization failed
  */
 Std_Return_t GPIO_Pin_Toggle_logic(const GPIO_Config* config)
 {
-	Std_Return_t RET = OK;
+	Std_Return_t RET = HAL_OK;
 	if(config == NULL)
 	{
-		RET = NOT_OK;
+		RET = HAL_NOT_OK;
 	}
 	else
 	{
@@ -181,7 +190,7 @@ Std_Return_t GPIO_Pin_Toggle_logic(const GPIO_Config* config)
 		}
 		else
 		{
-			RET = NOT_OK;
+			RET = HAL_NOT_OK;
 		}
 	}
 	return RET;

@@ -1,0 +1,62 @@
+/**
+ ******************************************************************************
+ * @file           : STM32F10xxx_Peripheral_Defs.h
+ * @author         : Omar Alhossiny
+ * @brief          : STM32F10xxx register definition file
+ ******************************************************************************
+**/
+
+#ifndef COMMON_STM32F10XXX_PERIPHERAL_DEFS_H_
+#define COMMON_STM32F10XXX_PERIPHERAL_DEFS_H_
+
+/**********************************Include section start***********************************/
+#include <Common/std_types.h>
+/**********************************Include section end*************************************/
+
+/**********************************Macro declaration start*********************************/
+
+/**************************************RCC***************************************/
+#define RCC_BASE                             0x40021000
+#define RCC                                  (RCC_Types*)RCC_BASE
+
+#define RCC_PLL_MUL_POS                      0x12UL
+#define RCC_PLL_MUL_MASK                     0x003C0000UL
+
+#define RCC_MICROCONTROLLER_CLOCK_OUT_POS    0x18UL
+#define RCC_MICROCONTROLLER_CLOCK_OUT_MASK   0x07000000UL
+
+#define RCC_ADC_PRESCALER_POS                      0xEUL
+#define RCC_ADC_PRESCALER_MASK                     0x0000C000UL
+
+
+/**********************************Macro declaration end***********************************/
+
+/**********************************Macro function declaration start************************/
+
+/**********************************Macro function declaration end**************************/
+
+/**********************************Data type declaration start*****************************/
+
+
+/**************************************RCC***************************************/
+typedef struct
+{
+	uint_32 CR;          // offset-> 0x00, Clock control register
+	uint_32 CFGR;        // offset-> 0x04,Clock configuration register
+	uint_32 CIR;         // offset-> 0x08,Clock interrupt register
+	uint_32 APB2RSTR;    // offset-> 0x0C,APB2 peripheral reset register
+	uint_32 APB1RSTR;    // offset-> 0x10,APB1 peripheral reset register
+	uint_32 AHBENR;      // offset-> 0x14,AHB peripheral clock enable register
+	uint_32 APB2ENR;     // offset-> 0x18,Clock configuration register
+	uint_32 APB1ENR;     // offset-> 0x1C,APB1 peripheral clock enable register
+	uint_32 BDCR;        // offset-> 0x20,Backup domain control register
+	uint_32 CSR;         // offset-> 0x24,Control/status register
+}RCC_Types;
+
+/**********************************Data type declaration end*******************************/
+
+/**********************************Software interface declaration start********************/
+
+/**********************************Software interface declaration end**********************/
+
+#endif /* COMMON_STM32F10XXX_PERIPHERAL_DEFS_H_ */

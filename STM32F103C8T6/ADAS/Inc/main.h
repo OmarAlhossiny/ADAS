@@ -13,6 +13,7 @@
 /**********************************Include section start***********************************/
 #include <MCAL/GPIO/gpio.h>
 #include <MCAL/RCC/rcc.h>
+#include <Common/STM32F10xxx_HAL_Def.h>
 /**********************************Include section end*************************************/
 
 /**********************************Macro declaration start*********************************/
