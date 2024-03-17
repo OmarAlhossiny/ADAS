@@ -1,4 +1,4 @@
-17:44:43 **** Incremental Build of configuration Debug for project ADAS ****
+13:49:35 **** Incremental Build of configuration Debug for project ADAS ****
 make -j8 all 
 arm-none-eabi-gcc "../Src/MCAL/RCC/rcc.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/MCAL/RCC/rcc.d" -MT"Src/MCAL/RCC/rcc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/MCAL/RCC/rcc.o"
 arm-none-eabi-gcc "../Src/MCAL/GPIO/gpio.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/MCAL/GPIO/gpio.d" -MT"Src/MCAL/GPIO/gpio.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/MCAL/GPIO/gpio.o"
@@ -15,5 +15,5 @@ Finished building: default.size.stdout
 Finished building: ADAS.list
  
 
-17:44:46 Build Finished. 0 errors, 0 warnings. (took 3s.173ms)
+13:49:37 Build Finished. 0 errors, 0 warnings. (took 1s.590ms)
 

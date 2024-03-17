@@ -358,7 +358,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x35 ./Src/MCAL/RCC/rcc.o
  .debug_macro   0x0000000000000000       0x16 ./Src/MCAL/RCC/rcc.o
  .debug_macro   0x0000000000000000       0x29 ./Src/MCAL/RCC/rcc.o
- .debug_macro   0x0000000000000000      0x214 ./Src/MCAL/RCC/rcc.o
+ .debug_macro   0x0000000000000000      0x436 ./Src/MCAL/RCC/rcc.o
  .debug_macro   0x0000000000000000       0x3a ./Src/MCAL/RCC/rcc.o
  .group         0x0000000000000000        0xc ./Src/main.o
  .group         0x0000000000000000        0xc ./Src/main.o
@@ -423,7 +423,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x35 ./Src/main.o
  .debug_macro   0x0000000000000000       0x16 ./Src/main.o
  .debug_macro   0x0000000000000000       0x29 ./Src/main.o
- .debug_macro   0x0000000000000000      0x214 ./Src/main.o
+ .debug_macro   0x0000000000000000      0x436 ./Src/main.o
  .debug_macro   0x0000000000000000       0x3a ./Src/main.o
  .debug_macro   0x0000000000000000      0x4b1 ./Src/main.o
  .debug_macro   0x0000000000000000       0x5e ./Src/main.o
@@ -1157,17 +1157,17 @@ LOAD C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
  .comment       0x0000000000000043       0x44 ./Src/MCAL/RCC/rcc.o
  .comment       0x0000000000000043       0x44 ./Src/main.o
 
-.debug_info     0x0000000000000000      0xab2
- .debug_info    0x0000000000000000      0x517 ./Src/MCAL/GPIO/gpio.o
- .debug_info    0x0000000000000517      0x1f7 ./Src/MCAL/RCC/rcc.o
- .debug_info    0x000000000000070e      0x381 ./Src/main.o
- .debug_info    0x0000000000000a8f       0x23 ./Startup/startup_stm32f103c8tx.o
+.debug_info     0x0000000000000000      0xaac
+ .debug_info    0x0000000000000000      0x511 ./Src/MCAL/GPIO/gpio.o
+ .debug_info    0x0000000000000511      0x1f7 ./Src/MCAL/RCC/rcc.o
+ .debug_info    0x0000000000000708      0x381 ./Src/main.o
+ .debug_info    0x0000000000000a89       0x23 ./Startup/startup_stm32f103c8tx.o
 
-.debug_abbrev   0x0000000000000000      0x41b
- .debug_abbrev  0x0000000000000000      0x16f ./Src/MCAL/GPIO/gpio.o
- .debug_abbrev  0x000000000000016f      0x118 ./Src/MCAL/RCC/rcc.o
- .debug_abbrev  0x0000000000000287      0x182 ./Src/main.o
- .debug_abbrev  0x0000000000000409       0x12 ./Startup/startup_stm32f103c8tx.o
+.debug_abbrev   0x0000000000000000      0x450
+ .debug_abbrev  0x0000000000000000      0x1a4 ./Src/MCAL/GPIO/gpio.o
+ .debug_abbrev  0x00000000000001a4      0x118 ./Src/MCAL/RCC/rcc.o
+ .debug_abbrev  0x00000000000002bc      0x182 ./Src/main.o
+ .debug_abbrev  0x000000000000043e       0x12 ./Startup/startup_stm32f103c8tx.o
 
 .debug_aranges  0x0000000000000000       0xa8
  .debug_aranges
@@ -1190,15 +1190,15 @@ LOAD C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
  .debug_rnglists
                 0x0000000000000055       0x19 ./Startup/startup_stm32f103c8tx.o
 
-.debug_macro    0x0000000000000000     0x106e
+.debug_macro    0x0000000000000000     0x1290
  .debug_macro   0x0000000000000000      0x177 ./Src/MCAL/GPIO/gpio.o
- .debug_macro   0x0000000000000177      0x214 ./Src/MCAL/GPIO/gpio.o
- .debug_macro   0x000000000000038b       0x3a ./Src/MCAL/GPIO/gpio.o
- .debug_macro   0x00000000000003c5      0x4b1 ./Src/MCAL/GPIO/gpio.o
- .debug_macro   0x0000000000000876       0x5e ./Src/MCAL/GPIO/gpio.o
- .debug_macro   0x00000000000008d4      0x16e ./Src/MCAL/RCC/rcc.o
- .debug_macro   0x0000000000000a42      0x4ab ./Src/MCAL/RCC/rcc.o
- .debug_macro   0x0000000000000eed      0x181 ./Src/main.o
+ .debug_macro   0x0000000000000177      0x436 ./Src/MCAL/GPIO/gpio.o
+ .debug_macro   0x00000000000005ad       0x3a ./Src/MCAL/GPIO/gpio.o
+ .debug_macro   0x00000000000005e7      0x4b1 ./Src/MCAL/GPIO/gpio.o
+ .debug_macro   0x0000000000000a98       0x5e ./Src/MCAL/GPIO/gpio.o
+ .debug_macro   0x0000000000000af6      0x16e ./Src/MCAL/RCC/rcc.o
+ .debug_macro   0x0000000000000c64      0x4ab ./Src/MCAL/RCC/rcc.o
+ .debug_macro   0x000000000000110f      0x181 ./Src/main.o
 
 .debug_line     0x0000000000000000     0x14ad
  .debug_line    0x0000000000000000      0x779 ./Src/MCAL/GPIO/gpio.o
@@ -1206,14 +1206,14 @@ LOAD C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
  .debug_line    0x0000000000000e06      0x62c ./Src/main.o
  .debug_line    0x0000000000001432       0x7b ./Startup/startup_stm32f103c8tx.o
 
-.debug_str      0x0000000000000000     0xad9d
- .debug_str     0x0000000000000000     0xace8 ./Src/MCAL/GPIO/gpio.o
-                                       0xae09 (size before relaxing)
- .debug_str     0x000000000000ace8       0x60 ./Src/MCAL/RCC/rcc.o
-                                       0xa982 (size before relaxing)
- .debug_str     0x000000000000ad48       0x26 ./Src/main.o
-                                       0xadb8 (size before relaxing)
- .debug_str     0x000000000000ad6e       0x2f ./Startup/startup_stm32f103c8tx.o
+.debug_str      0x0000000000000000     0xb7ad
+ .debug_str     0x0000000000000000     0xb6f8 ./Src/MCAL/GPIO/gpio.o
+                                       0xb819 (size before relaxing)
+ .debug_str     0x000000000000b6f8       0x60 ./Src/MCAL/RCC/rcc.o
+                                       0xb392 (size before relaxing)
+ .debug_str     0x000000000000b758       0x26 ./Src/main.o
+                                       0xb7c8 (size before relaxing)
+ .debug_str     0x000000000000b77e       0x2f ./Startup/startup_stm32f103c8tx.o
                                          0x55 (size before relaxing)
 
 .debug_frame    0x0000000000000000      0x164
