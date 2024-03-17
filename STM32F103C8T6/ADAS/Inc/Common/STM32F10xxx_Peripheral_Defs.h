@@ -226,6 +226,52 @@
 #define TIMER_SMCR_ETPS_POS                               	  0x0000000CUL
 #define TIMER_SMCR_ETPS_MASK                                  0x00003000UL
 
+#define TIMER_CCMR1_CC1S_POS                               	  0x00000000UL
+#define TIMER_CCMR1_CC1S_MASK                                 0x00000003UL
+#define TIMER_CCMR1_IC1PSC_POS                                0x00000002UL
+#define TIMER_CCMR1_IC1PSC_MASK                               0x0000000CUL
+#define TIMER_CCMR1_OC1M_POS                               	  0x00000004UL
+#define TIMER_CCMR1_OC1M_MASK                                 0x00000070UL
+#define TIMER_CCMR1_IC1F_POS                               	  0x00000004UL
+#define TIMER_CCMR1_IC1F_MASK                                 0x000000F0UL
+#define TIMER_CCMR1_CC2S_POS                               	  0x00000006UL
+#define TIMER_CCMR1_CC2S_MASK                                 0x00000300UL
+#define TIMER_CCMR1_IC2PSC_POS                                0x0000000AUL
+#define TIMER_CCMR1_IC2PSC_MASK                               0x00000C00UL
+#define TIMER_CCMR1_OC2M_POS                               	  0x0000000CUL
+#define TIMER_CCMR1_OC2M_MASK                                 0x00007000UL
+#define TIMER_CCMR1_IC2F_POS                               	  0x0000000CUL
+#define TIMER_CCMR1_OC2M_MASK                                 0x0000F000UL
+
+#define TIMER_CNT_REG_POS                               	  0x00000000UL
+#define TIMER_CNT_REG_MASK                                    0x0000FFFFUL
+
+#define TIMER_PSC_REG_POS                               	  0x00000000UL
+#define TIMER_PSC_REG_MASK                                    0x0000FFFFUL
+
+#define TIMER_ARR_REG_POS                               	  0x00000000UL
+#define TIMER_ARR_REG_MASK                                    0x0000FFFFUL
+
+#define TIMER_CCR1_REG_POS                               	  0x00000000UL
+#define TIMER_CCR1_REG_MASK                                   0x0000FFFFUL
+
+#define TIMER_CCR2_REG_POS                               	  0x00000000UL
+#define TIMER_CCR2_REG_MASK                                   0x0000FFFFUL
+
+#define TIMER_CCR3_REG_POS                               	  0x00000000UL
+#define TIMER_CCR3_REG_MASK                                   0x0000FFFFUL
+
+#define TIMER_CCR4_REG_POS                               	  0x00000000UL
+#define TIMER_CCR4_REG_MASK                                   0x0000FFFFUL
+
+#define TIMER_DCR_DBA_POS                               	  0x00000000UL
+#define TIMER_DCR_DBA_MASK                                    0x0000001FUL
+#define TIMER_DCR_DBL_POS                               	  0x00000008UL
+#define TIMER_DCR_DBL_MASK                                    0x00001F00UL
+
+#define TIMER_DMAR_DMAB_POS                               	  0x00000000UL
+#define TIMER_DMAR_DMAB_MASK                                  0x0000FFFFUL
+
 /**********************************Macro declaration end***********************************/
 
 /**********************************Macro function declaration start************************/
