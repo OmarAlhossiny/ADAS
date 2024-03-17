@@ -132,6 +132,100 @@
 #define PORTF_BASE    ((GPIO_Types*)0x40011C00)
 #define PORTG_BASE    ((GPIO_Types*)0x40012000)
 
+/*****************************************TIMER***************************************/
+
+#define TIMER2_BASE     ((TIMER_Types*)0x40000000)
+#define TIMER3_BASE     ((TIMER_Types*)0x40000400)
+#define TIMER4_BASE     ((TIMER_Types*)0x40000800)
+#define TIMER5_BASE     ((TIMER_Types*)0x40000C00)
+
+#define TIMER                                 				 ((TIMER_Types *)TIMER2_BASE)
+			/**************TIMx control register 1 (TIMx_CR1) Positions******/
+#define TIMER_CR1_CEN_POS                               0x00000000UL
+#define TIMER_CR1_UDIS_POS                              0x00000001UL
+#define TIMER_CR1_URS_POS                               0x00000002UL
+#define TIMER_CR1_OPM_POS                               0x00000003UL
+#define TIMER_CR1_DIR_POS                               0x00000004UL
+#define TIMER_CR1_ARPE_POS                              0x00000007UL
+			/**************TIMx control register 2 (TIMx_CR2) Positions******/
+#define TIMER_CR2_CCDS_POS                              0x00000003UL
+#define TIMER_CR2_TI1S_POS                              0x00000007UL
+			/**************TIMx slave mode control register (TIMx_SMCR) Positions******/
+#define TIMER_SMCR_MSM_POS                              0x00000007UL
+#define TIMER_SMCR_ECE_POS                              0x0000000EUL
+#define TIMER_SMCR_ETP_POS                              0x0000000FUL
+			/**************TIMx DMA/Interrupt enable register (TIMx_DIER) Positions******/
+#define TIMER_DIER_UIE_POS                                 0x00000000UL
+#define TIMER_DIER_CC1IE_POS                               0x00000001UL
+#define TIMER_DIER_CC2IE_POS                               0x00000002UL
+#define TIMER_DIER_CC3IE_POS                               0x00000003UL
+#define TIMER_DIER_CC4IE_POS                               0x00000004UL
+#define TIMER_DIER_TIE_POS                                 0x00000006UL
+#define TIMER_DIER_UDE_POS                                 0x00000008UL
+#define TIMER_DIER_CC1DE_POS                               0x00000009UL
+#define TIMER_DIER_CC2DE_POS                               0x0000000AUL
+#define TIMER_DIER_CC3DE_POS                               0x0000000BUL
+#define TIMER_DIER_CC4DE_POS                               0x0000000CUL
+#define TIMER_DIER_TDE_POS                                 0x0000000EUL
+			/**************TIMx status register (TIMx_SR) Positions******/
+#define TIMER_SR_UIF_POS                                 0x00000000UL
+#define TIMER_SR_CC1IF_POS                               0x00000001UL
+#define TIMER_SR_CC2IF_POS                               0x00000002UL
+#define TIMER_SR_CC3IF_POS                               0x00000003UL
+#define TIMER_SR_CC4IF_POS                               0x00000004UL
+#define TIMER_SR_TIF_POS                                 0x00000006UL
+#define TIMER_SR_CC1OF_POS                               0x00000009UL
+#define TIMER_SR_CC2OF_POS                               0x0000000AUL
+#define TIMER_SR_CC3OF_POS                               0x0000000BUL
+#define TIMER_SR_CC4OF_POS                               0x0000000CUL
+			/**************TIMx event generation register (TIMx_EGR) Positions******/
+#define TIMER_EGR_UG_POS                                 0x00000000UL
+#define TIMER_EGR_CC1G_POS                               0x00000001UL
+#define TIMER_EGR_CC2G_POS                               0x00000002UL
+#define TIMER_EGR_CC3G_POS                               0x00000003UL
+#define TIMER_EGR_CC4G_POS                               0x00000004UL
+#define TIMER_EGR_TG_POS                                 0x00000006UL
+			/**************TIMx capture/compare mode register 1 (TIMx_CCMR1) Positions******/
+#define TIMER_CCMR1_OC1FE_POS                                 0x00000002UL
+#define TIMER_CCMR1_OC1PE_POS                                 0x00000003UL
+#define TIMER_CCMR1_OC1CE_POS                                 0x00000007UL
+#define TIMER_CCMR1_OC2FE_POS                                 0x0000000AUL
+#define TIMER_CCMR1_OC2PE_POS                                 0x0000000BUL
+#define TIMER_CCMR1_OC2CE_POS                                 0x0000000FUL
+			/**************TIMx capture/compare mode register 2 (TIMx_CCMR2) Positions******/
+#define TIMER_CCMR2_OC3FE_POS                                 0x00000002UL
+#define TIMER_CCMR2_OC3PE_POS                                 0x00000003UL
+#define TIMER_CCMR2_OC3CE_POS                                 0x00000007UL
+#define TIMER_CCMR2_OC4FE_POS                                 0x0000000AUL
+#define TIMER_CCMR2_OC4PE_POS                                 0x0000000BUL
+#define TIMER_CCMR2_OC4CE_POS                                 0x0000000FUL
+			/**************TIMx capture/compare enable register (TIMx_CCER) Positions******/
+#define TIMER_CCER_CC1E_POS                                   0x00000000UL
+#define TIMER_CCER_CC1P_POS                                   0x00000001UL
+#define TIMER_CCER_CC2E_POS                              	  0x00000004UL
+#define TIMER_CCER_CC2P_POS                               	  0x00000005UL
+#define TIMER_CCER_CC3E_POS                                   0x00000008UL
+#define TIMER_CCER_CC3P_POS                                   0x00000009UL
+#define TIMER_CCER_CC4E_POS                                   0x0000000CUL
+#define TIMER_CCER_CC4P_POS                                   0x0000000DUL
+					/**************Multi bit Positions and masks*************/
+#define TIMER_CR1_CMS_POS                               	  0x00000005UL
+#define TIMER_CR1_CMS_MASK                                    0x00000060UL
+#define TIMER_CR1_CKD_POS                               	  0x00000008UL
+#define TIMER_CR1_CKD_MASK                                    0x00000300UL
+
+#define TIMER_CR2_MMS_POS                               	  0x00000004UL
+#define TIMER_CR2_MMS_MASK                                    0x00000070UL
+
+#define TIMER_SMCR_SMS_POS                               	  0x00000000UL
+#define TIMER_SMCR_SMS_MASK                                   0x00000007UL
+#define TIMER_SMCR_TS_POS                               	  0x00000004UL
+#define TIMER_SMCR_TS_MASK                                    0x00000070UL
+#define TIMER_SMCR_ETF_POS                               	  0x00000008UL
+#define TIMER_SMCR_ETF_MASK                                   0x00000F00UL
+#define TIMER_SMCR_ETPS_POS                               	  0x0000000CUL
+#define TIMER_SMCR_ETPS_MASK                                  0x00003000UL
+
 /**********************************Macro declaration end***********************************/
 
 /**********************************Macro function declaration start************************/
@@ -169,6 +263,35 @@ typedef struct
 	volatile uint_32 reserved[249];
 }GPIO_Types;
 
+<<<<<<< HEAD
+=======
+/**************************************TIMER***************************************/
+typedef struct
+{
+	uint_32 CR1;          // offset-> 0x00, TIMx control register 1
+	uint_32 CR2;          // offset-> 0x04,TIMx control register 2
+	uint_32 SMCR;         // offset-> 0x08,TIMx slave mode control register
+	uint_32 DIER;       // offset-> 0x0C,TIMx DMA/Interrupt enable register
+	uint_32 SR;         // offset-> 0x10,TIMx status register
+	uint_32 EGR;        // offset-> 0x14,TIMx event generation register
+	uint_32 CCMR1;       // offset-> 0x18,TIMx capture/compare mode register 1
+	uint_32 CCMR2;       // offset-> 0x1C,TIMx capture/compare mode register 2
+	uint_32 CCER;        // offset-> 0x20,TIMx capture/compare enable register
+	uint_32 CNT;         // offset-> 0x24,TIMx counter
+	uint_32 PSC;        // offset-> 0x28,TIMx prescaler
+	uint_32 ARR;         // offset-> 0x2C,TIMx auto-reload register
+	uint_32 Reserved_1;    // offset-> 0x30, Reserved_1
+	uint_32 CCR1;          // offset-> 0x34,TIMx capture/compare register 1
+	uint_32 CCR2;         // offset-> 0x38,TIMx capture/compare register 2
+	uint_32 CCR3;       // offset-> 0x3C,TIMx capture/compare register 3
+	uint_32 CCR4;         // offset-> 0x40,TIMx capture/compare register 4
+	uint_32 Reserved_2;        // offset-> 0x44, Reserved_2
+	uint_32 DCR;         // offset-> 0x48,TIMx DMA control register
+	uint_32 DMAR;         // offset-> 0x4C,TIMx DMA address for full transfer
+	uint_32 Reserved_2[236];
+}TIMER_Types;
+
+>>>>>>> 26b48be91b1395fd3c5a41f277341c10ca329a24
 
 /**********************************Data type declaration end*******************************/
 
