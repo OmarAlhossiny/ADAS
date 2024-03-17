@@ -169,6 +169,7 @@ typedef struct
 	volatile uint_32 reserved[249];
 }GPIO_Types;
 
+
 /**********************************Data type declaration end*******************************/
 
 /**********************************Software interface declaration start********************/

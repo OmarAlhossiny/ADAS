@@ -12,10 +12,10 @@ Std_Return_t RET = HAL_OK;
 
 GPIO_Config Config =
 {
-		.port = PORTB,
-		.pin = PIN15,
+		.port = PORTA,
+		.pin = PIN7,
 		.logic = GPIO_LOW,
-		.mode = GPIO_MODE_OUTPUT_PUSH_PULL_SPEED_50MHZ
+		.mode = GPIO_MODE_OUTPUT_PUSH_PULL_SPEED_10MHZ
 };
 
 RCC_CFGR config =
@@ -26,23 +26,23 @@ RCC_CFGR config =
 	.PPRE2 = RCC_APB_HIGH_SPEED_PRESCALER_APB2_DIV1,
 	.PLLSRC = RCC_PLL_SOURCE_HSI,
 	.PLLXTPRE = RCC_HSE_NOT_DIVIDED,
-	.PLLMUL = RCC_PLL_MULTIPLICATION_FACTOR_8
+	.PLLMUL = RCC_PLL_MULTIPLICATION_FACTOR_15,
+	.ADCPRE = RCC_ADC_PRESCALER_DIV6
 };
 
 int main(void)
 {
-	RET = RCC_SysClock_Init(&config);
+    RET = RCC_SysClock_Init(&config);
 	RET = GPIO_Pin_Direction_Initialize(&Config);
+
 
 
 	while(1)
 	{
 		RET = GPIO_Pin_Write_logic(&Config,GPIO_HIGH);
-		for(int u = 0;u < 2000000;u++)
-			asm("nop");
+		delay(100);
 		RET = GPIO_Pin_Write_logic(&Config,GPIO_LOW);
-		for(int u = 0;u < 2000000;u++)
-					asm("nop");
+		delay(100);
 	}
 	return 0;
 }
