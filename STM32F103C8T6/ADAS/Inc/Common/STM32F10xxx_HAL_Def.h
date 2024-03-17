@@ -14,6 +14,8 @@
 /**********************************Include section end*************************************/
 
 /**********************************Macro declaration start*********************************/
+#define SYS_CLOCK            32000000UL
+
 
 /**********************************Macro declaration end***********************************/
 
@@ -27,6 +29,15 @@
 #define READ_REG(REG)               ((REG))
 #define WRITE_REG(REG,VAL)          ((REG) = (VAL))
 #define MODIFY_REG(REG,MASK,VAL)    WRITE_REG((REG),(((READ_REG(REG)) & (~(MASK))) | (VAL)))
+
+
+#define delay(ms) do {\
+                        uint_32 nop_count = (ms) * (SYS_CLOCK / 3000); \
+                        for(uint_32 count = 0; count < nop_count; ++count) { \
+                            __asm volatile("NOP"); \
+                        } \
+                    } while(0)
+
 
 /**********************************Macro function declaration end**************************/
 

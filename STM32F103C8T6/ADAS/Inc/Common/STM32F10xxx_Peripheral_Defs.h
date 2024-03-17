@@ -309,6 +309,8 @@ typedef struct
 	volatile uint_32 reserved[249];
 }GPIO_Types;
 
+
+
 /**************************************TIMER***************************************/
 typedef struct
 {
@@ -332,8 +334,9 @@ typedef struct
 	uint_32 Reserved_2;        // offset-> 0x44, Reserved_2
 	uint_32 DCR;         // offset-> 0x48,TIMx DMA control register
 	uint_32 DMAR;         // offset-> 0x4C,TIMx DMA address for full transfer
-	uint_32 Reserved_2[236];
+	uint_32 Reserved_3[236];
 }TIMER_Types;
+
 
 
 /**********************************Data type declaration end*******************************/

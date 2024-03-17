@@ -1,5 +1,7 @@
-13:57:32 **** Incremental Build of configuration Debug for project ADAS ****
+13:49:35 **** Incremental Build of configuration Debug for project ADAS ****
 make -j8 all 
+arm-none-eabi-gcc "../Src/MCAL/RCC/rcc.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/MCAL/RCC/rcc.d" -MT"Src/MCAL/RCC/rcc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/MCAL/RCC/rcc.o"
+arm-none-eabi-gcc "../Src/MCAL/GPIO/gpio.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/MCAL/GPIO/gpio.d" -MT"Src/MCAL/GPIO/gpio.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/MCAL/GPIO/gpio.o"
 arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
 arm-none-eabi-gcc -o "ADAS.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\REPO\ADAS\STM32F103C8T6\ADAS\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADAS.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 Finished building target: ADAS.elf
@@ -7,15 +9,8 @@ Finished building target: ADAS.elf
 arm-none-eabi-size  ADAS.elf 
 arm-none-eabi-objdump -h -S ADAS.elf  > "ADAS.list"
    text	   data	    bss	    dec	    hex	filename
-   1556	     80	   1568	   3204	    c84	ADAS.elf
+   1564	     80	   1568	   3212	    c8c	ADAS.elf
 Finished building: default.size.stdout
  
 Finished building: ADAS.list
- 
-13:57:36 **** Incremental Build of configuration Debug for project ADAS ****
-make -j8 all 
-arm-none-eabi-size  ADAS.elf 
-   text	   data	    bss	    dec	    hex	filename
-   1556	     80	   1568	   3204	    c84	ADAS.elf
-Finished building: default.size.stdout
  
