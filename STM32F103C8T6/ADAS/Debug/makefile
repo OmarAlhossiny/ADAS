@@ -12,7 +12,9 @@ RM := rm -rf
 -include Startup/subdir.mk
 -include Src/MCAL/RCC/subdir.mk
 -include Src/MCAL/GPIO/subdir.mk
--include Src/CortexM3/subdir.mk
+-include Src/CortexM3/SysTick/subdir.mk
+-include Src/CortexM3/SCB/subdir.mk
+-include Src/CortexM3/NVIC/subdir.mk
 -include Src/subdir.mk
 -include objects.mk
 

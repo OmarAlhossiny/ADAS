@@ -241,7 +241,7 @@
 #define TIMER_CCMR1_OC2M_POS                               	  0x0000000CUL
 #define TIMER_CCMR1_OC2M_MASK                                 0x00007000UL
 #define TIMER_CCMR1_IC2F_POS                               	  0x0000000CUL
-#define TIMER_CCMR1_OC2M_MASK                                 0x0000F000UL
+#define TIMER_CCMR1_IC2F_MASK                                 0x0000F000UL
 
 #define TIMER_CNT_REG_POS                               	  0x00000000UL
 #define TIMER_CNT_REG_MASK                                    0x0000FFFFUL

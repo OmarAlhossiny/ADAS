@@ -24,6 +24,7 @@
 #define SET_BIT(REG,MASK)    ((REG) |= (1UL << (MASK)))
 #define CLEAR_BIT(REG,MASK)  ((REG) &= ~(1UL << (MASK)))
 #define TOGGLE_BIT(REG,MASK) ((REG) ^= (1UL << (MASK)))
+#define READ_BIT(REG,MASK)   ((REG) & (MASK))
 
 
 #define READ_REG(REG)               ((REG))

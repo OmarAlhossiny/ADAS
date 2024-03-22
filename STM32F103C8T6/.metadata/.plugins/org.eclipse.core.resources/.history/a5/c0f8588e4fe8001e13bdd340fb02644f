@@ -1,0 +1,123 @@
+/**
+ ******************************************************************************
+ * @file           : Cortex-M3_SysTick.h
+ * @author         : Omar_Alhossiny
+ * @brief          : SysTick driver header interface file
+ ******************************************************************************
+**/
+
+#ifndef CORTEXM3_SYSTICK_CORTEX_M3_SYSTICK_H_
+#define CORTEXM3_SYSTICK_CORTEX_M3_SYSTICK_H_
+
+
+
+/**********************************Include section start***********************************/
+#include <Common/std_types.h>
+#include <Common/STM32F10xxx_Peripheral_Defs.h>
+#include <Common/STM32F10xxx_HAL_Def.h>
+/**********************************Include section end*************************************/
+
+/**********************************Macro declaration start*********************************/
+#define SYSTICK_BASE              		(0xE000E010UL)
+#define SYSTICK                   		((SysTick_Types*)(SYSTICK_BASE))
+
+
+#define SYSTICK_CSR_ENABLE_POS    		0x00000000UL
+#define SYSTICK_CSR_ENABLE_MASK   		0x00000001UL
+
+#define SYSTICK_CSR_TICKINT_POS    		0x00000001UL
+#define SYSTICK_CSR_TICKINT_MASK  	 	0x00000002UL
+
+#define SYSTICK_CSR_CLKSOURCE_POS       0x00000002UL
+#define SYSTICK_CSR_CLKSOURCE_MASK      0x00000004UL
+
+#define SYSTICK_CSR_COUNTFLAG_POS       0x00000010UL
+#define SYSTICK_CSR_COUNTFLAG_MASK      0x00010000UL
+
+#define SYSTICK_CSR_COUNTFLAG_HIGH      0x00010000UL
+#define SYSTICK_CSR_COUNTFLAG_LOW       0x00000000UL
+
+#define SYSTICK_RVR_POS                 0x00000000UL
+#define SYSTICK_RVR_MASK                0x000FFFFFUL
+
+#define SYSTICK_CVR_POS                 0x00000000UL
+#define SYSTICK_CVR_MASK                0x000FFFFFUL
+
+
+
+
+
+/**********************************Macro declaration end***********************************/
+
+/**********************************Macro function declaration start************************/
+#define SYSTICK_CSR_ENABLE()                   (SET_BIT(SYSTICK->CSR,SYSTICK_CSR_ENABLE_POS))
+#define SYSTICK_CSR_DISABLE()                  (CLEAR_BIT(SYSTICK->CSR,SYSTICK_CSR_ENABLE_POS))
+
+#define SYSTICK_CSR_EXCEPTION_ENABLE()         (SET_BIT(SYSTICK->CSR,SYSTICK_CSR_TICKINT_POS))
+#define SYSTICK_CSR_EXCEPTION_DISABLE()        (CLEAR_BIT(SYSTICK->CSR,SYSTICK_CSR_TICKINT_POS))
+
+#define SYSTICK_CSR_CLOCK_SOURCE_AHB_DIV1()    (SET_BIT(SYSTICK->CSR,SYSTICK_CSR_CLKSOURCE_POS))
+#define SYSTICK_CSR_CLOCK_SOURCE_AHB_DIV8()    (CLEAR_BIT(SYSTICK->CSR,SYSTICK_CSR_CLKSOURCE_POS))
+/**********************************Macro function declaration end**************************/
+
+/**********************************Data type declaration start*****************************/
+typedef struct
+{
+	volatile uint_32 CSR;             // Offset -> 0x00, RW, SysTick Control and Status Register
+	volatile uint_32 RVR;             // Offset -> oxo4, RW, SysTick Reload Value Register
+	volatile uint_32 CVR;             // Offset -> oxo8, RW, SysTick Current Value Register
+	volatile uint_32 CALIB;           // Offset -> oxoC, RO, SysTick Calibration Value Register
+}SysTick_Types;
+
+typedef void (* PtrToFunction)(void);
+/**********************************Data type declaration end*******************************/
+
+/**********************************Software interface declaration start********************/
+/**
+ * /brief     SysTIck Timer initialize
+ * /Details   initialize SysTick Timer
+ * /param[in] SysTick_Ticks number of Ticks Timer will do before reach zero
+ *  return    1 in case of unsuccessful initialization
+ *            0 in case of successful initialization
+ */
+uint_8 SysTick_Init(uint_32 SysTick_Ticks);
+
+/**
+ * /brief     SysTIck Timer DeInitialize
+ * /Details   DeInitialize SysTick Timer
+ */
+void SysTick_DeInit(void);
+
+/**
+ * /brief     SysTIck Timer delay function
+ * /Details   delay the processor for certain time
+ * /param[in] SysTick_Ticks number of Ticks Timer will do before stop the delay
+ */
+void SysTick_WaitBlocking(uint_32 SysTick_Ticks);
+
+/**
+ * /brief     SysTIck Timer single interval
+ * /Details   generate interrupt one time after certain amount of time passed
+ * /param[in] SysTick_Ticks number of Ticks Timer will do before reach zero
+ * /param[in] CallBack pointer to function that will be called after the interval of time end
+ */
+void SysTick_SingleInterval(uint_32 SysTick_Ticks,PtrToFunction CallBack);
+
+/**
+ * /brief     SysTIck Timer single interval
+ * /Details   generate interrupt periodically after certain amount of time passed
+ * /param[in] SysTick_Ticks number of Ticks Timer will do before reach zero
+ * /param[in] CallBack pointer to function that will be called after the interval of time end
+ */
+void SysTick_PeriodicInterval(uint_32 SysTick_Ticks,PtrToFunction CallBack);
+
+/**
+ * /brief     SysTIck Timer get remaining ticks
+ * /Details   Get the remaining ticks till counter reach Zero
+ * /return    number of Ticks to reach Zero
+ */
+uint_32 SysTick_GetRemainingTicks(void);
+
+/**********************************Software interface declaration end**********************/
+
+#endif /* CORTEXM3_SYSTICK_CORTEX_M3_SYSTICK_H_ */

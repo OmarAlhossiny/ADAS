@@ -1,2 +1,0 @@
-../Src/CortexM3/Cortex-M3_SCB.c:17:6:SCB_SetPriorityGrouping	24	static
-../Src/CortexM3/Cortex-M3_SCB.c:30:9:SCB_GetPriorityGrouping	4	static

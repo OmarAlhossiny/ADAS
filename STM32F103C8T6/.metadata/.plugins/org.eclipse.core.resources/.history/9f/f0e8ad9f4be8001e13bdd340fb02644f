@@ -1,0 +1,82 @@
+/**
+ ******************************************************************************
+ * @file           : Cortex-M3_SysTick.c
+ * @author         : Omar_Alhossiny
+ * @brief          : SysTick driver implementation file
+ ******************************************************************************
+**/
+#include <CortexM3/SysTick/Cortex-M3_SysTick.h>
+/**
+ * /brief     SysTIck Timer initialize
+ * /Details   initialize SysTick Timer
+ * /param[in] SysTick_Ticks number of Ticks Timer will do before reach zero
+ *  return    1 in case of unsuccessful initialization
+ *            0 in case of successful initialization
+ */
+uint_8 SysTick_Init(uint_32 SysTick_Ticks)
+{
+	uint_8 RET = 0;
+	SYSTICK_CSR_DISABLE();
+	SYSTICK_CSR_EXCEPTION_DISABLE();
+	SYSTICK->RVR = SysTick_Ticks;
+	SYSTICK->CVR = 0;
+#if SYSTICK_CLOCK_SOURCE == SYSTICK_CLOCK_SOURCE_AHPDIV8
+	SYSTICK_CSR_CLOCK_SOURCE_AHB_DIV8();
+#elif SYSTICK_CLOCK_SOURCE == SYSTICK_CLOCK_SOURCE_AHPDIV1
+	SYSTICK_CSR_CLOCK_SOURCE_AHB_DIV1();
+#endif
+#endif
+}
+
+/**
+ * /brief     SysTIck Timer DeInitialize
+ * /Details   DeInitialize SysTick Timer
+ */
+void SysTick_DeInit(void)
+{
+
+}
+
+/**
+ * /brief     SysTIck Timer delay function
+ * /Details   delay the processor for certain time
+ * /param[in] SysTick_Ticks number of Ticks Timer will do before stop the delay
+ */
+void SysTick_WaitBlocking(uint_32 SysTick_Ticks)
+{
+
+}
+
+/**
+ * /brief     SysTIck Timer single interval
+ * /Details   generate interrupt one time after certain amount of time passed
+ * /param[in] SysTick_Ticks number of Ticks Timer will do before reach zero
+ * /param[in] CallBack pointer to function that will be called after the interval of time end
+ */
+void SysTick_SingleInterval(uint_32 SysTick_Ticks,PtrToFunction CallBack)
+{
+
+}
+
+/**
+ * /brief     SysTIck Timer single interval
+ * /Details   generate interrupt periodically after certain amount of time passed
+ * /param[in] SysTick_Ticks number of Ticks Timer will do before reach zero
+ * /param[in] CallBack pointer to function that will be called after the interval of time end
+ */
+void SysTick_PeriodicInterval(uint_32 SysTick_Ticks,PtrToFunction CallBack)
+{
+
+}
+
+/**
+ * /brief     SysTIck Timer get remaining ticks
+ * /Details   Get the remaining ticks till counter reach Zero
+ * /return    number of Ticks to reach Zero
+ */
+uint_32 SysTick_GetRemainingTicks(void)
+{
+	return SYSTICK->CVR;
+}
+
+

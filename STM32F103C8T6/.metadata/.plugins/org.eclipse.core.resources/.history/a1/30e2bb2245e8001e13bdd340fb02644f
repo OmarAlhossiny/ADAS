@@ -1,0 +1,56 @@
+/**
+ ******************************************************************************
+ * @file           : Cortex-M3_SysTick.h
+ * @author         : Omar_Alhossiny
+ * @brief          : SysTick driver header interface file
+ ******************************************************************************
+**/
+
+#ifndef CORTEXM3_SYSTICK_CORTEX_M3_SYSTICK_H_
+#define CORTEXM3_SYSTICK_CORTEX_M3_SYSTICK_H_
+
+
+
+/**********************************Include section start***********************************/
+#include <Common/std_types.h>
+/**********************************Include section end*************************************/
+
+/**********************************Macro declaration start*********************************/
+#define SYSTICK_BASE              		0xE000E010UL
+#define SYSTICK                   		(SysTick_Types *)SYSTICK_BASE
+
+
+#define SYSTICK_CSR_ENABLE_POS    		0x00000000UL
+#define SYSTICK_CSR_ENABLE_MASK   		0x00000001UL
+
+#define SYSTICK_CSR_TICKINT_POS    		0x00000001UL
+#define SYSTICK_CSR_TICKINT_MASK  	 	0x00000002UL
+
+#define SYSTICK_CSR_CLKSOURCE_POS       0x00000002UL
+#define SYSTICK_CSR_CLKSOURCE_MASK      0x00000004UL
+
+#define SYSTICK_CSR_CLKSOURCE_POS       0x00000010UL
+#define SYSTICK_CSR_CLKSOURCE_MASK      0x00010000UL
+
+
+/**********************************Macro declaration end***********************************/
+
+/**********************************Macro function declaration start************************/
+
+/**********************************Macro function declaration end**************************/
+
+/**********************************Data type declaration start*****************************/
+typedef struct
+{
+	volatile uint_32 CSR;             // Offset -> 0x00, RW, SysTick Control and Status Register
+	volatile uint_32 RVR;             // Offset -> oxo4, RW, SysTick Reload Value Register
+	volatile uint_32 CVR;             // Offset -> oxo8, RW, SysTick Current Value Register
+	volatile uint_32 CALIB;           // Offset -> oxoC, RO, SysTick Calibration Value Register
+}SysTick_Types;
+/**********************************Data type declaration end*******************************/
+
+/**********************************Software interface declaration start********************/
+
+/**********************************Software interface declaration end**********************/
+
+#endif /* CORTEXM3_SYSTICK_CORTEX_M3_SYSTICK_H_ */

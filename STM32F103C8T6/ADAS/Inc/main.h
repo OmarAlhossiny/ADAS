@@ -14,6 +14,7 @@
 #include <MCAL/GPIO/gpio.h>
 #include <MCAL/RCC/rcc.h>
 #include <Common/STM32F10xxx_HAL_Def.h>
+#include <CortexM3/SysTick/Cortex-M3_SysTick.h>
 /**********************************Include section end*************************************/
 
 /**********************************Macro declaration start*********************************/

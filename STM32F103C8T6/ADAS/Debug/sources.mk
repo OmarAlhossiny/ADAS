@@ -22,7 +22,9 @@ C_DEPS :=
 
 # Every subdirectory with source files must be described here
 SUBDIRS := \
-Src/CortexM3 \
+Src/CortexM3/NVIC \
+Src/CortexM3/SCB \
+Src/CortexM3/SysTick \
 Src/MCAL/GPIO \
 Src/MCAL/RCC \
 Src \

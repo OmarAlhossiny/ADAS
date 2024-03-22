@@ -61,172 +61,239 @@ Discarded input sections
  .debug_str     0x0000000000000000       0xde C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
  .ARM.attributes
                 0x0000000000000000       0x1b C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
- .group         0x0000000000000000        0xc ./Src/CortexM3/Cortex-M3_SCB.o
- .group         0x0000000000000000        0xc ./Src/CortexM3/Cortex-M3_SCB.o
- .group         0x0000000000000000        0xc ./Src/CortexM3/Cortex-M3_SCB.o
- .group         0x0000000000000000        0xc ./Src/CortexM3/Cortex-M3_SCB.o
- .group         0x0000000000000000        0xc ./Src/CortexM3/Cortex-M3_SCB.o
- .group         0x0000000000000000        0xc ./Src/CortexM3/Cortex-M3_SCB.o
- .group         0x0000000000000000        0xc ./Src/CortexM3/Cortex-M3_SCB.o
- .group         0x0000000000000000        0xc ./Src/CortexM3/Cortex-M3_SCB.o
- .group         0x0000000000000000        0xc ./Src/CortexM3/Cortex-M3_SCB.o
- .group         0x0000000000000000        0xc ./Src/CortexM3/Cortex-M3_SCB.o
- .group         0x0000000000000000        0xc ./Src/CortexM3/Cortex-M3_SCB.o
- .group         0x0000000000000000        0xc ./Src/CortexM3/Cortex-M3_SCB.o
- .group         0x0000000000000000        0xc ./Src/CortexM3/Cortex-M3_SCB.o
- .group         0x0000000000000000        0xc ./Src/CortexM3/Cortex-M3_SCB.o
- .group         0x0000000000000000        0xc ./Src/CortexM3/Cortex-M3_SCB.o
- .group         0x0000000000000000        0xc ./Src/CortexM3/Cortex-M3_SCB.o
- .group         0x0000000000000000        0xc ./Src/CortexM3/Cortex-M3_SCB.o
- .group         0x0000000000000000        0xc ./Src/CortexM3/Cortex-M3_SCB.o
- .group         0x0000000000000000        0xc ./Src/CortexM3/Cortex-M3_SCB.o
- .group         0x0000000000000000        0xc ./Src/CortexM3/Cortex-M3_SCB.o
- .group         0x0000000000000000        0xc ./Src/CortexM3/Cortex-M3_SCB.o
- .group         0x0000000000000000        0xc ./Src/CortexM3/Cortex-M3_SCB.o
- .group         0x0000000000000000        0xc ./Src/CortexM3/Cortex-M3_SCB.o
- .group         0x0000000000000000        0xc ./Src/CortexM3/Cortex-M3_SCB.o
- .group         0x0000000000000000        0xc ./Src/CortexM3/Cortex-M3_SCB.o
- .group         0x0000000000000000        0xc ./Src/CortexM3/Cortex-M3_SCB.o
- .group         0x0000000000000000        0xc ./Src/CortexM3/Cortex-M3_SCB.o
- .group         0x0000000000000000        0xc ./Src/CortexM3/Cortex-M3_SCB.o
- .group         0x0000000000000000        0xc ./Src/CortexM3/Cortex-M3_SCB.o
- .text          0x0000000000000000        0x0 ./Src/CortexM3/Cortex-M3_SCB.o
- .data          0x0000000000000000        0x0 ./Src/CortexM3/Cortex-M3_SCB.o
- .bss           0x0000000000000000        0x0 ./Src/CortexM3/Cortex-M3_SCB.o
- .text.SCB_SetPriorityGrouping
-                0x0000000000000000       0x40 ./Src/CortexM3/Cortex-M3_SCB.o
- .text.SCB_GetPriorityGrouping
-                0x0000000000000000       0x1c ./Src/CortexM3/Cortex-M3_SCB.o
- .debug_info    0x0000000000000000      0x192 ./Src/CortexM3/Cortex-M3_SCB.o
- .debug_abbrev  0x0000000000000000       0xcd ./Src/CortexM3/Cortex-M3_SCB.o
- .debug_aranges
-                0x0000000000000000       0x28 ./Src/CortexM3/Cortex-M3_SCB.o
- .debug_rnglists
-                0x0000000000000000       0x19 ./Src/CortexM3/Cortex-M3_SCB.o
- .debug_macro   0x0000000000000000      0x15c ./Src/CortexM3/Cortex-M3_SCB.o
- .debug_macro   0x0000000000000000      0xaa2 ./Src/CortexM3/Cortex-M3_SCB.o
- .debug_macro   0x0000000000000000       0x22 ./Src/CortexM3/Cortex-M3_SCB.o
- .debug_macro   0x0000000000000000       0x5b ./Src/CortexM3/Cortex-M3_SCB.o
- .debug_macro   0x0000000000000000       0x24 ./Src/CortexM3/Cortex-M3_SCB.o
- .debug_macro   0x0000000000000000       0x94 ./Src/CortexM3/Cortex-M3_SCB.o
- .debug_macro   0x0000000000000000       0x43 ./Src/CortexM3/Cortex-M3_SCB.o
- .debug_macro   0x0000000000000000       0x34 ./Src/CortexM3/Cortex-M3_SCB.o
- .debug_macro   0x0000000000000000       0x16 ./Src/CortexM3/Cortex-M3_SCB.o
- .debug_macro   0x0000000000000000       0x57 ./Src/CortexM3/Cortex-M3_SCB.o
- .debug_macro   0x0000000000000000       0x97 ./Src/CortexM3/Cortex-M3_SCB.o
- .debug_macro   0x0000000000000000      0x369 ./Src/CortexM3/Cortex-M3_SCB.o
- .debug_macro   0x0000000000000000       0xfd ./Src/CortexM3/Cortex-M3_SCB.o
- .debug_macro   0x0000000000000000       0x10 ./Src/CortexM3/Cortex-M3_SCB.o
- .debug_macro   0x0000000000000000       0x16 ./Src/CortexM3/Cortex-M3_SCB.o
- .debug_macro   0x0000000000000000       0x43 ./Src/CortexM3/Cortex-M3_SCB.o
- .debug_macro   0x0000000000000000       0x34 ./Src/CortexM3/Cortex-M3_SCB.o
- .debug_macro   0x0000000000000000       0x10 ./Src/CortexM3/Cortex-M3_SCB.o
- .debug_macro   0x0000000000000000       0x58 ./Src/CortexM3/Cortex-M3_SCB.o
- .debug_macro   0x0000000000000000       0x8e ./Src/CortexM3/Cortex-M3_SCB.o
- .debug_macro   0x0000000000000000       0x1c ./Src/CortexM3/Cortex-M3_SCB.o
- .debug_macro   0x0000000000000000      0x177 ./Src/CortexM3/Cortex-M3_SCB.o
- .debug_macro   0x0000000000000000       0x16 ./Src/CortexM3/Cortex-M3_SCB.o
- .debug_macro   0x0000000000000000       0x16 ./Src/CortexM3/Cortex-M3_SCB.o
- .debug_macro   0x0000000000000000      0x147 ./Src/CortexM3/Cortex-M3_SCB.o
- .debug_macro   0x0000000000000000       0x16 ./Src/CortexM3/Cortex-M3_SCB.o
- .debug_macro   0x0000000000000000       0x35 ./Src/CortexM3/Cortex-M3_SCB.o
- .debug_macro   0x0000000000000000       0x16 ./Src/CortexM3/Cortex-M3_SCB.o
- .debug_macro   0x0000000000000000       0x29 ./Src/CortexM3/Cortex-M3_SCB.o
- .debug_macro   0x0000000000000000       0x3a ./Src/CortexM3/Cortex-M3_SCB.o
- .debug_line    0x0000000000000000      0x5de ./Src/CortexM3/Cortex-M3_SCB.o
- .debug_str     0x0000000000000000     0x6e69 ./Src/CortexM3/Cortex-M3_SCB.o
- .comment       0x0000000000000000       0x44 ./Src/CortexM3/Cortex-M3_SCB.o
- .debug_frame   0x0000000000000000       0x58 ./Src/CortexM3/Cortex-M3_SCB.o
- .ARM.attributes
-                0x0000000000000000       0x2d ./Src/CortexM3/Cortex-M3_SCB.o
- .group         0x0000000000000000        0xc ./Src/CortexM3/Cortex_M3_NVIC.o
- .group         0x0000000000000000        0xc ./Src/CortexM3/Cortex_M3_NVIC.o
- .group         0x0000000000000000        0xc ./Src/CortexM3/Cortex_M3_NVIC.o
- .group         0x0000000000000000        0xc ./Src/CortexM3/Cortex_M3_NVIC.o
- .group         0x0000000000000000        0xc ./Src/CortexM3/Cortex_M3_NVIC.o
- .group         0x0000000000000000        0xc ./Src/CortexM3/Cortex_M3_NVIC.o
- .group         0x0000000000000000        0xc ./Src/CortexM3/Cortex_M3_NVIC.o
- .group         0x0000000000000000        0xc ./Src/CortexM3/Cortex_M3_NVIC.o
- .group         0x0000000000000000        0xc ./Src/CortexM3/Cortex_M3_NVIC.o
- .group         0x0000000000000000        0xc ./Src/CortexM3/Cortex_M3_NVIC.o
- .group         0x0000000000000000        0xc ./Src/CortexM3/Cortex_M3_NVIC.o
- .group         0x0000000000000000        0xc ./Src/CortexM3/Cortex_M3_NVIC.o
- .group         0x0000000000000000        0xc ./Src/CortexM3/Cortex_M3_NVIC.o
- .group         0x0000000000000000        0xc ./Src/CortexM3/Cortex_M3_NVIC.o
- .group         0x0000000000000000        0xc ./Src/CortexM3/Cortex_M3_NVIC.o
- .group         0x0000000000000000        0xc ./Src/CortexM3/Cortex_M3_NVIC.o
- .group         0x0000000000000000        0xc ./Src/CortexM3/Cortex_M3_NVIC.o
- .group         0x0000000000000000        0xc ./Src/CortexM3/Cortex_M3_NVIC.o
- .group         0x0000000000000000        0xc ./Src/CortexM3/Cortex_M3_NVIC.o
- .group         0x0000000000000000        0xc ./Src/CortexM3/Cortex_M3_NVIC.o
- .group         0x0000000000000000        0xc ./Src/CortexM3/Cortex_M3_NVIC.o
- .group         0x0000000000000000        0xc ./Src/CortexM3/Cortex_M3_NVIC.o
- .group         0x0000000000000000        0xc ./Src/CortexM3/Cortex_M3_NVIC.o
- .group         0x0000000000000000        0xc ./Src/CortexM3/Cortex_M3_NVIC.o
- .group         0x0000000000000000        0xc ./Src/CortexM3/Cortex_M3_NVIC.o
- .group         0x0000000000000000        0xc ./Src/CortexM3/Cortex_M3_NVIC.o
- .group         0x0000000000000000        0xc ./Src/CortexM3/Cortex_M3_NVIC.o
- .group         0x0000000000000000        0xc ./Src/CortexM3/Cortex_M3_NVIC.o
- .group         0x0000000000000000        0xc ./Src/CortexM3/Cortex_M3_NVIC.o
- .text          0x0000000000000000        0x0 ./Src/CortexM3/Cortex_M3_NVIC.o
- .data          0x0000000000000000        0x0 ./Src/CortexM3/Cortex_M3_NVIC.o
- .bss           0x0000000000000000        0x0 ./Src/CortexM3/Cortex_M3_NVIC.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
+ .text          0x0000000000000000        0x0 ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
+ .data          0x0000000000000000        0x0 ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
+ .bss           0x0000000000000000        0x0 ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
  .text.NVIC_Enable_IRQn
-                0x0000000000000000       0x3c ./Src/CortexM3/Cortex_M3_NVIC.o
+                0x0000000000000000       0x3c ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
  .text.NVIC_Disable_IRQn
-                0x0000000000000000       0x40 ./Src/CortexM3/Cortex_M3_NVIC.o
+                0x0000000000000000       0x40 ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
  .text.NVIC_SetPending_IRQn
-                0x0000000000000000       0x40 ./Src/CortexM3/Cortex_M3_NVIC.o
+                0x0000000000000000       0x40 ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
  .text.NVIC_ClearPending_IRQn
-                0x0000000000000000       0x40 ./Src/CortexM3/Cortex_M3_NVIC.o
+                0x0000000000000000       0x40 ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
  .text.NVIC_GetActive
-                0x0000000000000000       0x4c ./Src/CortexM3/Cortex_M3_NVIC.o
+                0x0000000000000000       0x4c ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
  .text.NVIC_SetPriority
-                0x0000000000000000       0x34 ./Src/CortexM3/Cortex_M3_NVIC.o
+                0x0000000000000000       0x34 ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
  .text.NVIC_GetPriority
-                0x0000000000000000       0x34 ./Src/CortexM3/Cortex_M3_NVIC.o
- .debug_info    0x0000000000000000      0x42c ./Src/CortexM3/Cortex_M3_NVIC.o
- .debug_abbrev  0x0000000000000000      0x131 ./Src/CortexM3/Cortex_M3_NVIC.o
+                0x0000000000000000       0x34 ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
+ .debug_info    0x0000000000000000      0x42c ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
+ .debug_abbrev  0x0000000000000000      0x131 ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
  .debug_aranges
-                0x0000000000000000       0x50 ./Src/CortexM3/Cortex_M3_NVIC.o
+                0x0000000000000000       0x50 ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
  .debug_rnglists
-                0x0000000000000000       0x37 ./Src/CortexM3/Cortex_M3_NVIC.o
- .debug_macro   0x0000000000000000      0x15c ./Src/CortexM3/Cortex_M3_NVIC.o
- .debug_macro   0x0000000000000000      0xaa2 ./Src/CortexM3/Cortex_M3_NVIC.o
- .debug_macro   0x0000000000000000       0x22 ./Src/CortexM3/Cortex_M3_NVIC.o
- .debug_macro   0x0000000000000000       0x5b ./Src/CortexM3/Cortex_M3_NVIC.o
- .debug_macro   0x0000000000000000       0x24 ./Src/CortexM3/Cortex_M3_NVIC.o
- .debug_macro   0x0000000000000000       0x94 ./Src/CortexM3/Cortex_M3_NVIC.o
- .debug_macro   0x0000000000000000       0x43 ./Src/CortexM3/Cortex_M3_NVIC.o
- .debug_macro   0x0000000000000000       0x34 ./Src/CortexM3/Cortex_M3_NVIC.o
- .debug_macro   0x0000000000000000       0x16 ./Src/CortexM3/Cortex_M3_NVIC.o
- .debug_macro   0x0000000000000000       0x57 ./Src/CortexM3/Cortex_M3_NVIC.o
- .debug_macro   0x0000000000000000       0x97 ./Src/CortexM3/Cortex_M3_NVIC.o
- .debug_macro   0x0000000000000000      0x369 ./Src/CortexM3/Cortex_M3_NVIC.o
- .debug_macro   0x0000000000000000       0xfd ./Src/CortexM3/Cortex_M3_NVIC.o
- .debug_macro   0x0000000000000000       0x10 ./Src/CortexM3/Cortex_M3_NVIC.o
- .debug_macro   0x0000000000000000       0x16 ./Src/CortexM3/Cortex_M3_NVIC.o
- .debug_macro   0x0000000000000000       0x43 ./Src/CortexM3/Cortex_M3_NVIC.o
- .debug_macro   0x0000000000000000       0x34 ./Src/CortexM3/Cortex_M3_NVIC.o
- .debug_macro   0x0000000000000000       0x10 ./Src/CortexM3/Cortex_M3_NVIC.o
- .debug_macro   0x0000000000000000       0x58 ./Src/CortexM3/Cortex_M3_NVIC.o
- .debug_macro   0x0000000000000000       0x8e ./Src/CortexM3/Cortex_M3_NVIC.o
- .debug_macro   0x0000000000000000       0x1c ./Src/CortexM3/Cortex_M3_NVIC.o
- .debug_macro   0x0000000000000000      0x177 ./Src/CortexM3/Cortex_M3_NVIC.o
- .debug_macro   0x0000000000000000       0x16 ./Src/CortexM3/Cortex_M3_NVIC.o
- .debug_macro   0x0000000000000000       0x16 ./Src/CortexM3/Cortex_M3_NVIC.o
- .debug_macro   0x0000000000000000      0x147 ./Src/CortexM3/Cortex_M3_NVIC.o
- .debug_macro   0x0000000000000000       0x16 ./Src/CortexM3/Cortex_M3_NVIC.o
- .debug_macro   0x0000000000000000       0x35 ./Src/CortexM3/Cortex_M3_NVIC.o
- .debug_macro   0x0000000000000000       0x16 ./Src/CortexM3/Cortex_M3_NVIC.o
- .debug_macro   0x0000000000000000       0x29 ./Src/CortexM3/Cortex_M3_NVIC.o
- .debug_macro   0x0000000000000000       0x16 ./Src/CortexM3/Cortex_M3_NVIC.o
- .debug_line    0x0000000000000000      0x6aa ./Src/CortexM3/Cortex_M3_NVIC.o
- .debug_str     0x0000000000000000     0x7187 ./Src/CortexM3/Cortex_M3_NVIC.o
- .comment       0x0000000000000000       0x44 ./Src/CortexM3/Cortex_M3_NVIC.o
- .debug_frame   0x0000000000000000      0x128 ./Src/CortexM3/Cortex_M3_NVIC.o
+                0x0000000000000000       0x37 ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
+ .debug_macro   0x0000000000000000      0x15c ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
+ .debug_macro   0x0000000000000000      0xaa2 ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
+ .debug_macro   0x0000000000000000       0x22 ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
+ .debug_macro   0x0000000000000000       0x5b ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
+ .debug_macro   0x0000000000000000       0x24 ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
+ .debug_macro   0x0000000000000000       0x94 ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
+ .debug_macro   0x0000000000000000       0x43 ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
+ .debug_macro   0x0000000000000000       0x34 ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
+ .debug_macro   0x0000000000000000       0x16 ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
+ .debug_macro   0x0000000000000000       0x57 ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
+ .debug_macro   0x0000000000000000       0x97 ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
+ .debug_macro   0x0000000000000000      0x369 ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
+ .debug_macro   0x0000000000000000       0xfd ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
+ .debug_macro   0x0000000000000000       0x10 ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
+ .debug_macro   0x0000000000000000       0x16 ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
+ .debug_macro   0x0000000000000000       0x43 ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
+ .debug_macro   0x0000000000000000       0x34 ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
+ .debug_macro   0x0000000000000000       0x10 ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
+ .debug_macro   0x0000000000000000       0x58 ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
+ .debug_macro   0x0000000000000000       0x8e ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
+ .debug_macro   0x0000000000000000       0x1c ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
+ .debug_macro   0x0000000000000000      0x177 ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
+ .debug_macro   0x0000000000000000       0x16 ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
+ .debug_macro   0x0000000000000000       0x16 ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
+ .debug_macro   0x0000000000000000      0x147 ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
+ .debug_macro   0x0000000000000000       0x16 ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
+ .debug_macro   0x0000000000000000       0x35 ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
+ .debug_macro   0x0000000000000000       0x16 ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
+ .debug_macro   0x0000000000000000       0x29 ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
+ .debug_macro   0x0000000000000000       0x16 ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
+ .debug_line    0x0000000000000000      0x6b4 ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
+ .debug_str     0x0000000000000000     0x718c ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
+ .comment       0x0000000000000000       0x44 ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
+ .debug_frame   0x0000000000000000      0x128 ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
  .ARM.attributes
-                0x0000000000000000       0x2d ./Src/CortexM3/Cortex_M3_NVIC.o
+                0x0000000000000000       0x2d ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/SCB/Cortex-M3_SCB.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/SCB/Cortex-M3_SCB.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/SCB/Cortex-M3_SCB.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/SCB/Cortex-M3_SCB.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/SCB/Cortex-M3_SCB.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/SCB/Cortex-M3_SCB.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/SCB/Cortex-M3_SCB.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/SCB/Cortex-M3_SCB.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/SCB/Cortex-M3_SCB.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/SCB/Cortex-M3_SCB.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/SCB/Cortex-M3_SCB.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/SCB/Cortex-M3_SCB.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/SCB/Cortex-M3_SCB.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/SCB/Cortex-M3_SCB.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/SCB/Cortex-M3_SCB.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/SCB/Cortex-M3_SCB.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/SCB/Cortex-M3_SCB.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/SCB/Cortex-M3_SCB.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/SCB/Cortex-M3_SCB.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/SCB/Cortex-M3_SCB.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/SCB/Cortex-M3_SCB.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/SCB/Cortex-M3_SCB.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/SCB/Cortex-M3_SCB.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/SCB/Cortex-M3_SCB.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/SCB/Cortex-M3_SCB.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/SCB/Cortex-M3_SCB.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/SCB/Cortex-M3_SCB.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/SCB/Cortex-M3_SCB.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/SCB/Cortex-M3_SCB.o
+ .text          0x0000000000000000        0x0 ./Src/CortexM3/SCB/Cortex-M3_SCB.o
+ .data          0x0000000000000000        0x0 ./Src/CortexM3/SCB/Cortex-M3_SCB.o
+ .bss           0x0000000000000000        0x0 ./Src/CortexM3/SCB/Cortex-M3_SCB.o
+ .text.SCB_SetPriorityGrouping
+                0x0000000000000000       0x40 ./Src/CortexM3/SCB/Cortex-M3_SCB.o
+ .text.SCB_GetPriorityGrouping
+                0x0000000000000000       0x1c ./Src/CortexM3/SCB/Cortex-M3_SCB.o
+ .debug_info    0x0000000000000000      0x192 ./Src/CortexM3/SCB/Cortex-M3_SCB.o
+ .debug_abbrev  0x0000000000000000       0xcd ./Src/CortexM3/SCB/Cortex-M3_SCB.o
+ .debug_aranges
+                0x0000000000000000       0x28 ./Src/CortexM3/SCB/Cortex-M3_SCB.o
+ .debug_rnglists
+                0x0000000000000000       0x19 ./Src/CortexM3/SCB/Cortex-M3_SCB.o
+ .debug_macro   0x0000000000000000      0x15c ./Src/CortexM3/SCB/Cortex-M3_SCB.o
+ .debug_macro   0x0000000000000000      0xaa2 ./Src/CortexM3/SCB/Cortex-M3_SCB.o
+ .debug_macro   0x0000000000000000       0x22 ./Src/CortexM3/SCB/Cortex-M3_SCB.o
+ .debug_macro   0x0000000000000000       0x5b ./Src/CortexM3/SCB/Cortex-M3_SCB.o
+ .debug_macro   0x0000000000000000       0x24 ./Src/CortexM3/SCB/Cortex-M3_SCB.o
+ .debug_macro   0x0000000000000000       0x94 ./Src/CortexM3/SCB/Cortex-M3_SCB.o
+ .debug_macro   0x0000000000000000       0x43 ./Src/CortexM3/SCB/Cortex-M3_SCB.o
+ .debug_macro   0x0000000000000000       0x34 ./Src/CortexM3/SCB/Cortex-M3_SCB.o
+ .debug_macro   0x0000000000000000       0x16 ./Src/CortexM3/SCB/Cortex-M3_SCB.o
+ .debug_macro   0x0000000000000000       0x57 ./Src/CortexM3/SCB/Cortex-M3_SCB.o
+ .debug_macro   0x0000000000000000       0x97 ./Src/CortexM3/SCB/Cortex-M3_SCB.o
+ .debug_macro   0x0000000000000000      0x369 ./Src/CortexM3/SCB/Cortex-M3_SCB.o
+ .debug_macro   0x0000000000000000       0xfd ./Src/CortexM3/SCB/Cortex-M3_SCB.o
+ .debug_macro   0x0000000000000000       0x10 ./Src/CortexM3/SCB/Cortex-M3_SCB.o
+ .debug_macro   0x0000000000000000       0x16 ./Src/CortexM3/SCB/Cortex-M3_SCB.o
+ .debug_macro   0x0000000000000000       0x43 ./Src/CortexM3/SCB/Cortex-M3_SCB.o
+ .debug_macro   0x0000000000000000       0x34 ./Src/CortexM3/SCB/Cortex-M3_SCB.o
+ .debug_macro   0x0000000000000000       0x10 ./Src/CortexM3/SCB/Cortex-M3_SCB.o
+ .debug_macro   0x0000000000000000       0x58 ./Src/CortexM3/SCB/Cortex-M3_SCB.o
+ .debug_macro   0x0000000000000000       0x8e ./Src/CortexM3/SCB/Cortex-M3_SCB.o
+ .debug_macro   0x0000000000000000       0x1c ./Src/CortexM3/SCB/Cortex-M3_SCB.o
+ .debug_macro   0x0000000000000000      0x177 ./Src/CortexM3/SCB/Cortex-M3_SCB.o
+ .debug_macro   0x0000000000000000       0x16 ./Src/CortexM3/SCB/Cortex-M3_SCB.o
+ .debug_macro   0x0000000000000000       0x16 ./Src/CortexM3/SCB/Cortex-M3_SCB.o
+ .debug_macro   0x0000000000000000      0x147 ./Src/CortexM3/SCB/Cortex-M3_SCB.o
+ .debug_macro   0x0000000000000000       0x16 ./Src/CortexM3/SCB/Cortex-M3_SCB.o
+ .debug_macro   0x0000000000000000       0x35 ./Src/CortexM3/SCB/Cortex-M3_SCB.o
+ .debug_macro   0x0000000000000000       0x16 ./Src/CortexM3/SCB/Cortex-M3_SCB.o
+ .debug_macro   0x0000000000000000       0x29 ./Src/CortexM3/SCB/Cortex-M3_SCB.o
+ .debug_macro   0x0000000000000000       0x3a ./Src/CortexM3/SCB/Cortex-M3_SCB.o
+ .debug_line    0x0000000000000000      0x5e6 ./Src/CortexM3/SCB/Cortex-M3_SCB.o
+ .debug_str     0x0000000000000000     0x6e6d ./Src/CortexM3/SCB/Cortex-M3_SCB.o
+ .comment       0x0000000000000000       0x44 ./Src/CortexM3/SCB/Cortex-M3_SCB.o
+ .debug_frame   0x0000000000000000       0x58 ./Src/CortexM3/SCB/Cortex-M3_SCB.o
+ .ARM.attributes
+                0x0000000000000000       0x2d ./Src/CortexM3/SCB/Cortex-M3_SCB.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .group         0x0000000000000000        0xc ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .text          0x0000000000000000        0x0 ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .data          0x0000000000000000        0x0 ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .bss           0x0000000000000000        0x0 ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .text.SysTick_WaitBlocking
+                0x0000000000000000       0x60 ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .text.SysTick_SingleInterval
+                0x0000000000000000       0x64 ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .debug_macro   0x0000000000000000      0xaa2 ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .debug_macro   0x0000000000000000       0x22 ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .debug_macro   0x0000000000000000       0x5b ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .debug_macro   0x0000000000000000       0x24 ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .debug_macro   0x0000000000000000       0x94 ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .debug_macro   0x0000000000000000       0x43 ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .debug_macro   0x0000000000000000       0x34 ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .debug_macro   0x0000000000000000       0x16 ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .debug_macro   0x0000000000000000       0x57 ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .debug_macro   0x0000000000000000       0x97 ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .debug_macro   0x0000000000000000      0x369 ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .debug_macro   0x0000000000000000       0xfd ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .debug_macro   0x0000000000000000       0x10 ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .debug_macro   0x0000000000000000       0x16 ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .debug_macro   0x0000000000000000       0x43 ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .debug_macro   0x0000000000000000       0x34 ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .debug_macro   0x0000000000000000       0x10 ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .debug_macro   0x0000000000000000       0x58 ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .debug_macro   0x0000000000000000       0x8e ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .debug_macro   0x0000000000000000       0x1c ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .debug_macro   0x0000000000000000      0x177 ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .debug_macro   0x0000000000000000       0x16 ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .debug_macro   0x0000000000000000       0x16 ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .debug_macro   0x0000000000000000      0x147 ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .debug_macro   0x0000000000000000       0x16 ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .debug_macro   0x0000000000000000       0x35 ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .debug_macro   0x0000000000000000       0x16 ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .debug_macro   0x0000000000000000       0x29 ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
  .group         0x0000000000000000        0xc ./Src/MCAL/GPIO/gpio.o
  .group         0x0000000000000000        0xc ./Src/MCAL/GPIO/gpio.o
  .group         0x0000000000000000        0xc ./Src/MCAL/GPIO/gpio.o
@@ -262,12 +329,24 @@ Discarded input sections
  .text          0x0000000000000000        0x0 ./Src/MCAL/GPIO/gpio.o
  .data          0x0000000000000000        0x0 ./Src/MCAL/GPIO/gpio.o
  .bss           0x0000000000000000        0x0 ./Src/MCAL/GPIO/gpio.o
+ .data.GPIO     0x0000000000000000       0x1c ./Src/MCAL/GPIO/gpio.o
+ .text.GPIO_Pin_Direction_Initialize
+                0x0000000000000000      0x118 ./Src/MCAL/GPIO/gpio.o
  .text.GPIO_Pin_Get_Mode
                 0x0000000000000000       0x7c ./Src/MCAL/GPIO/gpio.o
+ .text.GPIO_Pin_Write_logic
+                0x0000000000000000       0xa0 ./Src/MCAL/GPIO/gpio.o
  .text.GPIO_Pin_Read_logic
                 0x0000000000000000       0x68 ./Src/MCAL/GPIO/gpio.o
  .text.GPIO_Pin_Toggle_logic
                 0x0000000000000000       0x5e ./Src/MCAL/GPIO/gpio.o
+ .debug_info    0x0000000000000000      0x511 ./Src/MCAL/GPIO/gpio.o
+ .debug_abbrev  0x0000000000000000      0x1b4 ./Src/MCAL/GPIO/gpio.o
+ .debug_aranges
+                0x0000000000000000       0x40 ./Src/MCAL/GPIO/gpio.o
+ .debug_rnglists
+                0x0000000000000000       0x2d ./Src/MCAL/GPIO/gpio.o
+ .debug_macro   0x0000000000000000      0x177 ./Src/MCAL/GPIO/gpio.o
  .debug_macro   0x0000000000000000      0xaa2 ./Src/MCAL/GPIO/gpio.o
  .debug_macro   0x0000000000000000       0x22 ./Src/MCAL/GPIO/gpio.o
  .debug_macro   0x0000000000000000       0x5b ./Src/MCAL/GPIO/gpio.o
@@ -296,6 +375,16 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x35 ./Src/MCAL/GPIO/gpio.o
  .debug_macro   0x0000000000000000       0x16 ./Src/MCAL/GPIO/gpio.o
  .debug_macro   0x0000000000000000       0x29 ./Src/MCAL/GPIO/gpio.o
+ .debug_macro   0x0000000000000000      0x532 ./Src/MCAL/GPIO/gpio.o
+ .debug_macro   0x0000000000000000       0x40 ./Src/MCAL/GPIO/gpio.o
+ .debug_macro   0x0000000000000000      0x4b1 ./Src/MCAL/GPIO/gpio.o
+ .debug_macro   0x0000000000000000       0x5e ./Src/MCAL/GPIO/gpio.o
+ .debug_line    0x0000000000000000      0x779 ./Src/MCAL/GPIO/gpio.o
+ .debug_str     0x0000000000000000     0xbcef ./Src/MCAL/GPIO/gpio.o
+ .comment       0x0000000000000000       0x44 ./Src/MCAL/GPIO/gpio.o
+ .debug_frame   0x0000000000000000       0xd0 ./Src/MCAL/GPIO/gpio.o
+ .ARM.attributes
+                0x0000000000000000       0x2d ./Src/MCAL/GPIO/gpio.o
  .group         0x0000000000000000        0xc ./Src/MCAL/RCC/rcc.o
  .group         0x0000000000000000        0xc ./Src/MCAL/RCC/rcc.o
  .group         0x0000000000000000        0xc ./Src/MCAL/RCC/rcc.o
@@ -358,8 +447,10 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x35 ./Src/MCAL/RCC/rcc.o
  .debug_macro   0x0000000000000000       0x16 ./Src/MCAL/RCC/rcc.o
  .debug_macro   0x0000000000000000       0x29 ./Src/MCAL/RCC/rcc.o
- .debug_macro   0x0000000000000000      0x436 ./Src/MCAL/RCC/rcc.o
- .debug_macro   0x0000000000000000       0x3a ./Src/MCAL/RCC/rcc.o
+ .debug_macro   0x0000000000000000      0x532 ./Src/MCAL/RCC/rcc.o
+ .debug_macro   0x0000000000000000       0x40 ./Src/MCAL/RCC/rcc.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
  .group         0x0000000000000000        0xc ./Src/main.o
  .group         0x0000000000000000        0xc ./Src/main.o
  .group         0x0000000000000000        0xc ./Src/main.o
@@ -423,10 +514,12 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x35 ./Src/main.o
  .debug_macro   0x0000000000000000       0x16 ./Src/main.o
  .debug_macro   0x0000000000000000       0x29 ./Src/main.o
- .debug_macro   0x0000000000000000      0x436 ./Src/main.o
- .debug_macro   0x0000000000000000       0x3a ./Src/main.o
+ .debug_macro   0x0000000000000000      0x532 ./Src/main.o
+ .debug_macro   0x0000000000000000       0x40 ./Src/main.o
  .debug_macro   0x0000000000000000      0x4b1 ./Src/main.o
  .debug_macro   0x0000000000000000       0x5e ./Src/main.o
+ .debug_macro   0x0000000000000000       0x1c ./Src/main.o
+ .debug_macro   0x0000000000000000       0x94 ./Src/main.o
  .group         0x0000000000000000        0xc ./Src/syscalls.o
  .group         0x0000000000000000        0xc ./Src/syscalls.o
  .group         0x0000000000000000        0xc ./Src/syscalls.o
@@ -869,8 +962,9 @@ Linker script and memory map
 LOAD C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7-m/nofp/crti.o
 LOAD C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7-m/nofp/crtbegin.o
 LOAD C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
-LOAD ./Src/CortexM3/Cortex-M3_SCB.o
-LOAD ./Src/CortexM3/Cortex_M3_NVIC.o
+LOAD ./Src/CortexM3/NVIC/Cortex_M3_NVIC.o
+LOAD ./Src/CortexM3/SCB/Cortex-M3_SCB.o
+LOAD ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
 LOAD ./Src/MCAL/GPIO/gpio.o
 LOAD ./Src/MCAL/RCC/rcc.o
 LOAD ./Src/main.o
@@ -908,217 +1002,233 @@ LOAD C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
                 0x0000000008000000                g_pfnVectors
                 0x0000000008000130                . = ALIGN (0x4)
 
-.text           0x0000000008000130      0x4ec
+.text           0x0000000008000130      0x448
                 0x0000000008000130                . = ALIGN (0x4)
  *(.text)
  .text          0x0000000008000130       0x40 C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7-m/nofp/crtbegin.o
  *(.text*)
- .text.GPIO_Pin_Direction_Initialize
-                0x0000000008000170      0x118 ./Src/MCAL/GPIO/gpio.o
-                0x0000000008000170                GPIO_Pin_Direction_Initialize
- .text.GPIO_Pin_Write_logic
-                0x0000000008000288       0xa0 ./Src/MCAL/GPIO/gpio.o
-                0x0000000008000288                GPIO_Pin_Write_logic
+ .text.SysTick_Init
+                0x0000000008000170       0x5c ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+                0x0000000008000170                SysTick_Init
+ .text.SysTick_DeInit
+                0x00000000080001cc       0x34 ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+                0x00000000080001cc                SysTick_DeInit
+ .text.SysTick_PeriodicInterval
+                0x0000000008000200       0x64 ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+                0x0000000008000200                SysTick_PeriodicInterval
+ .text.SysTick_GetRemainingTicks
+                0x0000000008000264       0x14 ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+                0x0000000008000264                SysTick_GetRemainingTicks
+ .text.SysTick_Handler
+                0x0000000008000278       0x2c ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+                0x0000000008000278                SysTick_Handler
  .text.RCC_SysClock_Init
-                0x0000000008000328      0x1b8 ./Src/MCAL/RCC/rcc.o
-                0x0000000008000328                RCC_SysClock_Init
- .text.main     0x00000000080004e0       0x88 ./Src/main.o
-                0x00000000080004e0                main
+                0x00000000080002a4      0x1b8 ./Src/MCAL/RCC/rcc.o
+                0x00000000080002a4                RCC_SysClock_Init
+ .text.main     0x000000000800045c       0x4c ./Src/main.o
+                0x000000000800045c                main
+ .text.Callback
+                0x00000000080004a8       0x1c ./Src/main.o
+                0x00000000080004a8                Callback
  .text.Reset_Handler
-                0x0000000008000568       0x50 ./Startup/startup_stm32f103c8tx.o
-                0x0000000008000568                Reset_Handler
+                0x00000000080004c4       0x50 ./Startup/startup_stm32f103c8tx.o
+                0x00000000080004c4                Reset_Handler
  .text.Default_Handler
-                0x00000000080005b8        0x2 ./Startup/startup_stm32f103c8tx.o
-                0x00000000080005b8                EXTI2_IRQHandler
-                0x00000000080005b8                TIM8_TRG_COM_IRQHandler
-                0x00000000080005b8                TIM8_CC_IRQHandler
-                0x00000000080005b8                DebugMon_Handler
-                0x00000000080005b8                TIM1_CC_IRQHandler
-                0x00000000080005b8                HardFault_Handler
-                0x00000000080005b8                TIM6_IRQHandler
-                0x00000000080005b8                SysTick_Handler
-                0x00000000080005b8                PVD_IRQHandler
-                0x00000000080005b8                SDIO_IRQHandler
-                0x00000000080005b8                PendSV_Handler
-                0x00000000080005b8                NMI_Handler
-                0x00000000080005b8                EXTI3_IRQHandler
-                0x00000000080005b8                USB_HP_CAN_TX_IRQHandler
-                0x00000000080005b8                EXTI0_IRQHandler
-                0x00000000080005b8                I2C2_EV_IRQHandler
-                0x00000000080005b8                UsageFault_Handler
-                0x00000000080005b8                ADC1_2_IRQHandler
-                0x00000000080005b8                SPI1_IRQHandler
-                0x00000000080005b8                CAN_SCE_IRQHandler
-                0x00000000080005b8                TAMPER_IRQHandler
-                0x00000000080005b8                TIM8_UP_IRQHandler
-                0x00000000080005b8                DMA2_Channel2_IRQHandler
-                0x00000000080005b8                DMA1_Channel4_IRQHandler
-                0x00000000080005b8                USART3_IRQHandler
-                0x00000000080005b8                RTC_IRQHandler
-                0x00000000080005b8                DMA1_Channel7_IRQHandler
-                0x00000000080005b8                UART5_IRQHandler
-                0x00000000080005b8                ADC3_IRQHandler
-                0x00000000080005b8                TIM4_IRQHandler
-                0x00000000080005b8                CAN_RX1_IRQHandler
-                0x00000000080005b8                DMA2_Channel1_IRQHandler
-                0x00000000080005b8                I2C1_EV_IRQHandler
-                0x00000000080005b8                DMA1_Channel6_IRQHandler
-                0x00000000080005b8                UART4_IRQHandler
-                0x00000000080005b8                TIM3_IRQHandler
-                0x00000000080005b8                RCC_IRQHandler
-                0x00000000080005b8                TIM1_TRG_COM_IRQHandler
-                0x00000000080005b8                DMA1_Channel1_IRQHandler
-                0x00000000080005b8                Default_Handler
-                0x00000000080005b8                EXTI15_10_IRQHandler
-                0x00000000080005b8                TIM7_IRQHandler
-                0x00000000080005b8                TIM5_IRQHandler
-                0x00000000080005b8                EXTI9_5_IRQHandler
-                0x00000000080005b8                SPI2_IRQHandler
-                0x00000000080005b8                USB_LP_CAN_RX0_IRQHandler
-                0x00000000080005b8                MemManage_Handler
-                0x00000000080005b8                SVC_Handler
-                0x00000000080005b8                DMA1_Channel5_IRQHandler
-                0x00000000080005b8                EXTI4_IRQHandler
-                0x00000000080005b8                DMA1_Channel3_IRQHandler
-                0x00000000080005b8                FSMC_IRQHandler
-                0x00000000080005b8                TIM1_UP_IRQHandler
-                0x00000000080005b8                WWDG_IRQHandler
-                0x00000000080005b8                TIM2_IRQHandler
-                0x00000000080005b8                TIM1_BRK_IRQHandler
-                0x00000000080005b8                EXTI1_IRQHandler
-                0x00000000080005b8                RTCAlarm_IRQHandler
-                0x00000000080005b8                DMA2_Channel4_5_IRQHandler
-                0x00000000080005b8                USART2_IRQHandler
-                0x00000000080005b8                I2C2_ER_IRQHandler
-                0x00000000080005b8                DMA1_Channel2_IRQHandler
-                0x00000000080005b8                TIM8_BRK_IRQHandler
-                0x00000000080005b8                FLASH_IRQHandler
-                0x00000000080005b8                BusFault_Handler
-                0x00000000080005b8                USART1_IRQHandler
-                0x00000000080005b8                SPI3_IRQHandler
-                0x00000000080005b8                I2C1_ER_IRQHandler
-                0x00000000080005b8                DMA2_Channel3_IRQHandler
- *fill*         0x00000000080005ba        0x2 
+                0x0000000008000514        0x2 ./Startup/startup_stm32f103c8tx.o
+                0x0000000008000514                EXTI2_IRQHandler
+                0x0000000008000514                TIM8_TRG_COM_IRQHandler
+                0x0000000008000514                TIM8_CC_IRQHandler
+                0x0000000008000514                DebugMon_Handler
+                0x0000000008000514                TIM1_CC_IRQHandler
+                0x0000000008000514                HardFault_Handler
+                0x0000000008000514                TIM6_IRQHandler
+                0x0000000008000514                PVD_IRQHandler
+                0x0000000008000514                SDIO_IRQHandler
+                0x0000000008000514                PendSV_Handler
+                0x0000000008000514                NMI_Handler
+                0x0000000008000514                EXTI3_IRQHandler
+                0x0000000008000514                USB_HP_CAN_TX_IRQHandler
+                0x0000000008000514                EXTI0_IRQHandler
+                0x0000000008000514                I2C2_EV_IRQHandler
+                0x0000000008000514                UsageFault_Handler
+                0x0000000008000514                ADC1_2_IRQHandler
+                0x0000000008000514                SPI1_IRQHandler
+                0x0000000008000514                CAN_SCE_IRQHandler
+                0x0000000008000514                TAMPER_IRQHandler
+                0x0000000008000514                TIM8_UP_IRQHandler
+                0x0000000008000514                DMA2_Channel2_IRQHandler
+                0x0000000008000514                DMA1_Channel4_IRQHandler
+                0x0000000008000514                USART3_IRQHandler
+                0x0000000008000514                RTC_IRQHandler
+                0x0000000008000514                DMA1_Channel7_IRQHandler
+                0x0000000008000514                UART5_IRQHandler
+                0x0000000008000514                ADC3_IRQHandler
+                0x0000000008000514                TIM4_IRQHandler
+                0x0000000008000514                CAN_RX1_IRQHandler
+                0x0000000008000514                DMA2_Channel1_IRQHandler
+                0x0000000008000514                I2C1_EV_IRQHandler
+                0x0000000008000514                DMA1_Channel6_IRQHandler
+                0x0000000008000514                UART4_IRQHandler
+                0x0000000008000514                TIM3_IRQHandler
+                0x0000000008000514                RCC_IRQHandler
+                0x0000000008000514                TIM1_TRG_COM_IRQHandler
+                0x0000000008000514                DMA1_Channel1_IRQHandler
+                0x0000000008000514                Default_Handler
+                0x0000000008000514                EXTI15_10_IRQHandler
+                0x0000000008000514                TIM7_IRQHandler
+                0x0000000008000514                TIM5_IRQHandler
+                0x0000000008000514                EXTI9_5_IRQHandler
+                0x0000000008000514                SPI2_IRQHandler
+                0x0000000008000514                USB_LP_CAN_RX0_IRQHandler
+                0x0000000008000514                MemManage_Handler
+                0x0000000008000514                SVC_Handler
+                0x0000000008000514                DMA1_Channel5_IRQHandler
+                0x0000000008000514                EXTI4_IRQHandler
+                0x0000000008000514                DMA1_Channel3_IRQHandler
+                0x0000000008000514                FSMC_IRQHandler
+                0x0000000008000514                TIM1_UP_IRQHandler
+                0x0000000008000514                WWDG_IRQHandler
+                0x0000000008000514                TIM2_IRQHandler
+                0x0000000008000514                TIM1_BRK_IRQHandler
+                0x0000000008000514                EXTI1_IRQHandler
+                0x0000000008000514                RTCAlarm_IRQHandler
+                0x0000000008000514                DMA2_Channel4_5_IRQHandler
+                0x0000000008000514                USART2_IRQHandler
+                0x0000000008000514                I2C2_ER_IRQHandler
+                0x0000000008000514                DMA1_Channel2_IRQHandler
+                0x0000000008000514                TIM8_BRK_IRQHandler
+                0x0000000008000514                FLASH_IRQHandler
+                0x0000000008000514                BusFault_Handler
+                0x0000000008000514                USART1_IRQHandler
+                0x0000000008000514                SPI3_IRQHandler
+                0x0000000008000514                I2C1_ER_IRQHandler
+                0x0000000008000514                DMA2_Channel3_IRQHandler
+ *fill*         0x0000000008000516        0x2 
  .text.__libc_init_array
-                0x00000000080005bc       0x48 C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-init.o)
-                0x00000000080005bc                __libc_init_array
+                0x0000000008000518       0x48 C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-init.o)
+                0x0000000008000518                __libc_init_array
  *(.glue_7)
- .glue_7        0x0000000008000604        0x0 linker stubs
+ .glue_7        0x0000000008000560        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x0000000008000604        0x0 linker stubs
+ .glue_7t       0x0000000008000560        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x0000000008000604        0x0 C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7-m/nofp/crtbegin.o
+ .eh_frame      0x0000000008000560        0x0 C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7-m/nofp/crtbegin.o
  *(.init)
- .init          0x0000000008000604        0x4 C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7-m/nofp/crti.o
-                0x0000000008000604                _init
- .init          0x0000000008000608        0x8 C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7-m/nofp/crtn.o
+ .init          0x0000000008000560        0x4 C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7-m/nofp/crti.o
+                0x0000000008000560                _init
+ .init          0x0000000008000564        0x8 C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7-m/nofp/crtn.o
  *(.fini)
- .fini          0x0000000008000610        0x4 C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7-m/nofp/crti.o
-                0x0000000008000610                _fini
- .fini          0x0000000008000614        0x8 C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7-m/nofp/crtn.o
-                0x000000000800061c                . = ALIGN (0x4)
-                0x000000000800061c                _etext = .
+ .fini          0x000000000800056c        0x4 C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7-m/nofp/crti.o
+                0x000000000800056c                _fini
+ .fini          0x0000000008000570        0x8 C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7-m/nofp/crtn.o
+                0x0000000008000578                . = ALIGN (0x4)
+                0x0000000008000578                _etext = .
 
-.vfp11_veneer   0x000000000800061c        0x0
- .vfp11_veneer  0x000000000800061c        0x0 linker stubs
+.vfp11_veneer   0x0000000008000578        0x0
+ .vfp11_veneer  0x0000000008000578        0x0 linker stubs
 
-.v4_bx          0x000000000800061c        0x0
- .v4_bx         0x000000000800061c        0x0 linker stubs
+.v4_bx          0x0000000008000578        0x0
+ .v4_bx         0x0000000008000578        0x0 linker stubs
 
-.iplt           0x000000000800061c        0x0
- .iplt          0x000000000800061c        0x0 C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7-m/nofp/crtbegin.o
+.iplt           0x0000000008000578        0x0
+ .iplt          0x0000000008000578        0x0 C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7-m/nofp/crtbegin.o
 
-.rel.dyn        0x000000000800061c        0x0
- .rel.iplt      0x000000000800061c        0x0 C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7-m/nofp/crtbegin.o
+.rel.dyn        0x0000000008000578        0x0
+ .rel.iplt      0x0000000008000578        0x0 C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7-m/nofp/crtbegin.o
 
-.rodata         0x000000000800061c        0x0
-                0x000000000800061c                . = ALIGN (0x4)
+.rodata         0x0000000008000578        0x0
+                0x0000000008000578                . = ALIGN (0x4)
  *(.rodata)
  *(.rodata*)
-                0x000000000800061c                . = ALIGN (0x4)
+                0x0000000008000578                . = ALIGN (0x4)
 
-.ARM.extab      0x000000000800061c        0x0
-                0x000000000800061c                . = ALIGN (0x4)
+.ARM.extab      0x0000000008000578        0x0
+                0x0000000008000578                . = ALIGN (0x4)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x000000000800061c                . = ALIGN (0x4)
+                0x0000000008000578                . = ALIGN (0x4)
 
-.ARM            0x000000000800061c        0x0
-                0x000000000800061c                . = ALIGN (0x4)
-                0x000000000800061c                __exidx_start = .
+.ARM            0x0000000008000578        0x0
+                0x0000000008000578                . = ALIGN (0x4)
+                0x0000000008000578                __exidx_start = .
  *(.ARM.exidx*)
-                0x000000000800061c                __exidx_end = .
-                0x000000000800061c                . = ALIGN (0x4)
+                0x0000000008000578                __exidx_end = .
+                0x0000000008000578                . = ALIGN (0x4)
 
-.preinit_array  0x000000000800061c        0x0
-                0x000000000800061c                . = ALIGN (0x4)
-                0x000000000800061c                PROVIDE (__preinit_array_start = .)
+.preinit_array  0x0000000008000578        0x0
+                0x0000000008000578                . = ALIGN (0x4)
+                0x0000000008000578                PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x000000000800061c                PROVIDE (__preinit_array_end = .)
-                0x000000000800061c                . = ALIGN (0x4)
+                0x0000000008000578                PROVIDE (__preinit_array_end = .)
+                0x0000000008000578                . = ALIGN (0x4)
 
-.init_array     0x000000000800061c        0x4
-                0x000000000800061c                . = ALIGN (0x4)
-                0x000000000800061c                PROVIDE (__init_array_start = .)
+.init_array     0x0000000008000578        0x4
+                0x0000000008000578                . = ALIGN (0x4)
+                0x0000000008000578                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x000000000800061c        0x4 C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7-m/nofp/crtbegin.o
-                0x0000000008000620                PROVIDE (__init_array_end = .)
-                0x0000000008000620                . = ALIGN (0x4)
+ .init_array    0x0000000008000578        0x4 C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7-m/nofp/crtbegin.o
+                0x000000000800057c                PROVIDE (__init_array_end = .)
+                0x000000000800057c                . = ALIGN (0x4)
 
-.fini_array     0x0000000008000620        0x4
-                0x0000000008000620                . = ALIGN (0x4)
+.fini_array     0x000000000800057c        0x4
+                0x000000000800057c                . = ALIGN (0x4)
                 [!provide]                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x0000000008000620        0x4 C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7-m/nofp/crtbegin.o
+ .fini_array    0x000000000800057c        0x4 C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7-m/nofp/crtbegin.o
                 [!provide]                        PROVIDE (__fini_array_end = .)
-                0x0000000008000624                . = ALIGN (0x4)
-                0x0000000008000624                _sidata = LOADADDR (.data)
+                0x0000000008000580                . = ALIGN (0x4)
+                0x0000000008000580                _sidata = LOADADDR (.data)
 
-.data           0x0000000020000000       0x48 load address 0x0000000008000624
+.data           0x0000000020000000        0x0 load address 0x0000000008000580
                 0x0000000020000000                . = ALIGN (0x4)
                 0x0000000020000000                _sdata = .
  *(.data)
  *(.data*)
- .data.GPIO     0x0000000020000000       0x1c ./Src/MCAL/GPIO/gpio.o
-                0x0000000020000000                GPIO
- .data.Config   0x000000002000001c        0x8 ./Src/main.o
-                0x000000002000001c                Config
- .data.config   0x0000000020000024       0x24 ./Src/main.o
-                0x0000000020000024                config
  *(.RamFunc)
  *(.RamFunc*)
-                0x0000000020000048                . = ALIGN (0x4)
-                0x0000000020000048                _edata = .
+                0x0000000020000000                . = ALIGN (0x4)
+                0x0000000020000000                _edata = .
 
-.igot.plt       0x0000000020000048        0x0 load address 0x000000000800066c
- .igot.plt      0x0000000020000048        0x0 C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7-m/nofp/crtbegin.o
-                0x0000000020000048                . = ALIGN (0x4)
+.igot.plt       0x0000000020000000        0x0 load address 0x0000000008000580
+ .igot.plt      0x0000000020000000        0x0 C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7-m/nofp/crtbegin.o
+                0x0000000020000000                . = ALIGN (0x4)
 
-.bss            0x0000000020000048       0x20 load address 0x000000000800066c
-                0x0000000020000048                _sbss = .
-                0x0000000020000048                __bss_start__ = _sbss
+.bss            0x0000000020000000       0x50 load address 0x0000000008000580
+                0x0000000020000000                _sbss = .
+                0x0000000020000000                __bss_start__ = _sbss
  *(.bss)
- .bss           0x0000000020000048       0x1c C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7-m/nofp/crtbegin.o
+ .bss           0x0000000020000000       0x1c C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7-m/nofp/crtbegin.o
  *(.bss*)
- .bss.RET       0x0000000020000064        0x1 ./Src/main.o
-                0x0000000020000064                RET
+ .bss.CALLback  0x000000002000001c        0x4 ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .bss.Periodic  0x0000000020000020        0x1 ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .bss.RET       0x0000000020000021        0x1 ./Src/main.o
+                0x0000000020000021                RET
+ .bss.ret       0x0000000020000022        0x1 ./Src/main.o
+                0x0000000020000022                ret
+ *fill*         0x0000000020000023        0x1 
+ .bss.num       0x0000000020000024        0x4 ./Src/main.o
+                0x0000000020000024                num
+ .bss.remaining
+                0x0000000020000028        0x4 ./Src/main.o
+                0x0000000020000028                remaining
+ .bss.config    0x000000002000002c       0x24 ./Src/main.o
+                0x000000002000002c                config
  *(COMMON)
-                0x0000000020000068                . = ALIGN (0x4)
- *fill*         0x0000000020000065        0x3 
-                0x0000000020000068                _ebss = .
-                0x0000000020000068                __bss_end__ = _ebss
+                0x0000000020000050                . = ALIGN (0x4)
+                0x0000000020000050                _ebss = .
+                0x0000000020000050                __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x0000000020000068      0x600 load address 0x000000000800066c
-                0x0000000020000068                . = ALIGN (0x8)
+                0x0000000020000050      0x600 load address 0x0000000008000580
+                0x0000000020000050                . = ALIGN (0x8)
                 [!provide]                        PROVIDE (end = .)
-                0x0000000020000068                PROVIDE (_end = .)
-                0x0000000020000268                . = (. + _Min_Heap_Size)
- *fill*         0x0000000020000068      0x200 
-                0x0000000020000668                . = (. + _Min_Stack_Size)
- *fill*         0x0000000020000268      0x400 
-                0x0000000020000668                . = ALIGN (0x8)
+                0x0000000020000050                PROVIDE (_end = .)
+                0x0000000020000250                . = (. + _Min_Heap_Size)
+ *fill*         0x0000000020000050      0x200 
+                0x0000000020000650                . = (. + _Min_Stack_Size)
+ *fill*         0x0000000020000250      0x400 
+                0x0000000020000650                . = ALIGN (0x8)
 
 /DISCARD/
  libc.a(*)
@@ -1133,7 +1243,7 @@ LOAD C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
  .ARM.attributes
                 0x000000000000001d       0x2d C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7-m/nofp/crtbegin.o
  .ARM.attributes
-                0x000000000000004a       0x2d ./Src/MCAL/GPIO/gpio.o
+                0x000000000000004a       0x2d ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
  .ARM.attributes
                 0x0000000000000077       0x2d ./Src/MCAL/RCC/rcc.o
  .ARM.attributes
@@ -1153,74 +1263,74 @@ LOAD C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
 .comment        0x0000000000000000       0x43
  .comment       0x0000000000000000       0x43 C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7-m/nofp/crtbegin.o
                                          0x44 (size before relaxing)
- .comment       0x0000000000000043       0x44 ./Src/MCAL/GPIO/gpio.o
+ .comment       0x0000000000000043       0x44 ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
  .comment       0x0000000000000043       0x44 ./Src/MCAL/RCC/rcc.o
  .comment       0x0000000000000043       0x44 ./Src/main.o
 
-.debug_info     0x0000000000000000      0xaac
- .debug_info    0x0000000000000000      0x511 ./Src/MCAL/GPIO/gpio.o
- .debug_info    0x0000000000000511      0x1f7 ./Src/MCAL/RCC/rcc.o
- .debug_info    0x0000000000000708      0x381 ./Src/main.o
- .debug_info    0x0000000000000a89       0x23 ./Startup/startup_stm32f103c8tx.o
+.debug_info     0x0000000000000000      0x66f
+ .debug_info    0x0000000000000000      0x212 ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .debug_info    0x0000000000000212      0x210 ./Src/MCAL/RCC/rcc.o
+ .debug_info    0x0000000000000422      0x22a ./Src/main.o
+ .debug_info    0x000000000000064c       0x23 ./Startup/startup_stm32f103c8tx.o
 
-.debug_abbrev   0x0000000000000000      0x450
- .debug_abbrev  0x0000000000000000      0x1a4 ./Src/MCAL/GPIO/gpio.o
- .debug_abbrev  0x00000000000001a4      0x118 ./Src/MCAL/RCC/rcc.o
- .debug_abbrev  0x00000000000002bc      0x182 ./Src/main.o
- .debug_abbrev  0x000000000000043e       0x12 ./Startup/startup_stm32f103c8tx.o
+.debug_abbrev   0x0000000000000000      0x3a3
+ .debug_abbrev  0x0000000000000000      0x13f ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .debug_abbrev  0x000000000000013f       0xe4 ./Src/MCAL/RCC/rcc.o
+ .debug_abbrev  0x0000000000000223      0x16e ./Src/main.o
+ .debug_abbrev  0x0000000000000391       0x12 ./Startup/startup_stm32f103c8tx.o
 
-.debug_aranges  0x0000000000000000       0xa8
+.debug_aranges  0x0000000000000000       0xc0
  .debug_aranges
-                0x0000000000000000       0x40 ./Src/MCAL/GPIO/gpio.o
+                0x0000000000000000       0x50 ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
  .debug_aranges
-                0x0000000000000040       0x20 ./Src/MCAL/RCC/rcc.o
+                0x0000000000000050       0x20 ./Src/MCAL/RCC/rcc.o
  .debug_aranges
-                0x0000000000000060       0x20 ./Src/main.o
+                0x0000000000000070       0x28 ./Src/main.o
  .debug_aranges
-                0x0000000000000080       0x28 ./Startup/startup_stm32f103c8tx.o
+                0x0000000000000098       0x28 ./Startup/startup_stm32f103c8tx.o
 
 .debug_rnglists
-                0x0000000000000000       0x6e
+                0x0000000000000000       0x7d
  .debug_rnglists
-                0x0000000000000000       0x2d ./Src/MCAL/GPIO/gpio.o
+                0x0000000000000000       0x37 ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
  .debug_rnglists
-                0x000000000000002d       0x14 ./Src/MCAL/RCC/rcc.o
+                0x0000000000000037       0x14 ./Src/MCAL/RCC/rcc.o
  .debug_rnglists
-                0x0000000000000041       0x14 ./Src/main.o
+                0x000000000000004b       0x19 ./Src/main.o
  .debug_rnglists
-                0x0000000000000055       0x19 ./Startup/startup_stm32f103c8tx.o
+                0x0000000000000064       0x19 ./Startup/startup_stm32f103c8tx.o
 
-.debug_macro    0x0000000000000000     0x1290
- .debug_macro   0x0000000000000000      0x177 ./Src/MCAL/GPIO/gpio.o
- .debug_macro   0x0000000000000177      0x436 ./Src/MCAL/GPIO/gpio.o
- .debug_macro   0x00000000000005ad       0x3a ./Src/MCAL/GPIO/gpio.o
- .debug_macro   0x00000000000005e7      0x4b1 ./Src/MCAL/GPIO/gpio.o
- .debug_macro   0x0000000000000a98       0x5e ./Src/MCAL/GPIO/gpio.o
- .debug_macro   0x0000000000000af6      0x16e ./Src/MCAL/RCC/rcc.o
- .debug_macro   0x0000000000000c64      0x4ab ./Src/MCAL/RCC/rcc.o
- .debug_macro   0x000000000000110f      0x181 ./Src/main.o
+.debug_macro    0x0000000000000000      0xf4b
+ .debug_macro   0x0000000000000000      0x177 ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .debug_macro   0x0000000000000177      0x532 ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .debug_macro   0x00000000000006a9       0x40 ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .debug_macro   0x00000000000006e9       0x1c ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .debug_macro   0x0000000000000705       0x94 ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .debug_macro   0x0000000000000799      0x16e ./Src/MCAL/RCC/rcc.o
+ .debug_macro   0x0000000000000907      0x4ab ./Src/MCAL/RCC/rcc.o
+ .debug_macro   0x0000000000000db2      0x199 ./Src/main.o
 
-.debug_line     0x0000000000000000     0x14ad
- .debug_line    0x0000000000000000      0x779 ./Src/MCAL/GPIO/gpio.o
- .debug_line    0x0000000000000779      0x68d ./Src/MCAL/RCC/rcc.o
- .debug_line    0x0000000000000e06      0x62c ./Src/main.o
- .debug_line    0x0000000000001432       0x7b ./Startup/startup_stm32f103c8tx.o
+.debug_line     0x0000000000000000     0x14c1
+ .debug_line    0x0000000000000000      0x748 ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .debug_line    0x0000000000000748      0x68d ./Src/MCAL/RCC/rcc.o
+ .debug_line    0x0000000000000dd5      0x671 ./Src/main.o
+ .debug_line    0x0000000000001446       0x7b ./Startup/startup_stm32f103c8tx.o
 
-.debug_str      0x0000000000000000     0xb7ad
- .debug_str     0x0000000000000000     0xb6f8 ./Src/MCAL/GPIO/gpio.o
-                                       0xb819 (size before relaxing)
- .debug_str     0x000000000000b6f8       0x60 ./Src/MCAL/RCC/rcc.o
-                                       0xb392 (size before relaxing)
- .debug_str     0x000000000000b758       0x26 ./Src/main.o
-                                       0xb7c8 (size before relaxing)
- .debug_str     0x000000000000b77e       0x2f ./Startup/startup_stm32f103c8tx.o
+.debug_str      0x0000000000000000     0xc11e
+ .debug_str     0x0000000000000000     0x8f21 ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+                                       0x9037 (size before relaxing)
+ .debug_str     0x0000000000008f21     0x2e6f ./Src/MCAL/RCC/rcc.o
+                                       0xb868 (size before relaxing)
+ .debug_str     0x000000000000bd90      0x35f ./Src/main.o
+                                       0xc103 (size before relaxing)
+ .debug_str     0x000000000000c0ef       0x2f ./Startup/startup_stm32f103c8tx.o
                                          0x55 (size before relaxing)
 
-.debug_frame    0x0000000000000000      0x164
- .debug_frame   0x0000000000000000       0xd0 ./Src/MCAL/GPIO/gpio.o
- .debug_frame   0x00000000000000d0       0x38 ./Src/MCAL/RCC/rcc.o
- .debug_frame   0x0000000000000108       0x30 ./Src/main.o
- .debug_frame   0x0000000000000138       0x2c C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-init.o)
+.debug_frame    0x0000000000000000      0x1bc
+ .debug_frame   0x0000000000000000      0x10c ./Src/CortexM3/SysTick/Cortex-M3_SysTick.o
+ .debug_frame   0x000000000000010c       0x38 ./Src/MCAL/RCC/rcc.o
+ .debug_frame   0x0000000000000144       0x4c ./Src/main.o
+ .debug_frame   0x0000000000000190       0x2c C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-init.o)
 
 .debug_line_str
                 0x0000000000000000       0x49
