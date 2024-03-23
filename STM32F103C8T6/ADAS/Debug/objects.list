@@ -3,6 +3,7 @@
 "./Src/CortexM3/SysTick/Cortex-M3_SysTick.o"
 "./Src/HAL/GPIO/gpio.o"
 "./Src/HAL/RCC/rcc.o"
+"./Src/HAL/Timer/hal_tim2.o"
 "./Src/main.o"
 "./Src/syscalls.o"
 "./Src/sysmem.o"

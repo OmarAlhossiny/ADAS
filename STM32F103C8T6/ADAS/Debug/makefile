@@ -10,6 +10,7 @@ RM := rm -rf
 # All of the sources participating in the build are defined here
 -include sources.mk
 -include Startup/subdir.mk
+-include Src/HAL/Timer/subdir.mk
 -include Src/HAL/RCC/subdir.mk
 -include Src/HAL/GPIO/subdir.mk
 -include Src/CortexM3/SysTick/subdir.mk
@@ -64,8 +65,8 @@ all: main-build
 main-build: ADAS.elf secondary-outputs
 
 # Tool invocations
-ADAS.elf ADAS.map: $(OBJS) $(USER_OBJS) D:\REPO\ADAS\STM32F103C8T6\ADAS\STM32F103C8TX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "ADAS.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"D:\REPO\ADAS\STM32F103C8T6\ADAS\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADAS.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+ADAS.elf ADAS.map: $(OBJS) $(USER_OBJS) C:\Users\COMPUMARTS\Desktop\appo\project_file\ADAS\STM32F103C8T6\ADAS\STM32F103C8TX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "ADAS.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"C:\Users\COMPUMARTS\Desktop\appo\project_file\ADAS\STM32F103C8T6\ADAS\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADAS.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

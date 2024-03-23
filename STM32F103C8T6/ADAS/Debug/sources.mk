@@ -27,6 +27,7 @@ Src/CortexM3/SCB \
 Src/CortexM3/SysTick \
 Src/HAL/GPIO \
 Src/HAL/RCC \
+Src/HAL/Timer \
 Src \
 Startup \
 

@@ -7,7 +7,7 @@
 
 
 
-#include <MCAL/Timer/hal_tim2.h>
+#include <HAL/Timer/hal_tim2.h>
 
 /*				* Interrupt Configurations *
 #if TIMER2_INTERRUPT_FEATURE_ENABLE==INTERRUPT_FEATURE_ENABLE
@@ -71,7 +71,7 @@ Std_ReturnType Timer2_Read_Value(const timer2_t *_timer, uint_16 *_value){
         ret = HAL_NOT_OK;
     }
     else{
-
+    	*_value = TIMER->CNT;
         ret = HAL_OK;
     }
     return ret;
