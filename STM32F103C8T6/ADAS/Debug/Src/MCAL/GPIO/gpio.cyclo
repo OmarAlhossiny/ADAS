@@ -1,5 +1,0 @@
-../Src/MCAL/GPIO/gpio.c:22:14:GPIO_Pin_Direction_Initialize	7
-../Src/MCAL/GPIO/gpio.c:78:14:GPIO_Pin_Get_Mode	3
-../Src/MCAL/GPIO/gpio.c:105:14:GPIO_Pin_Write_logic	4
-../Src/MCAL/GPIO/gpio.c:141:14:GPIO_Pin_Read_logic	4
-../Src/MCAL/GPIO/gpio.c:172:14:GPIO_Pin_Toggle_logic	4

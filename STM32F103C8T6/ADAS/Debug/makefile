@@ -10,8 +10,8 @@ RM := rm -rf
 # All of the sources participating in the build are defined here
 -include sources.mk
 -include Startup/subdir.mk
--include Src/MCAL/RCC/subdir.mk
--include Src/MCAL/GPIO/subdir.mk
+-include Src/HAL/RCC/subdir.mk
+-include Src/HAL/GPIO/subdir.mk
 -include Src/CortexM3/SysTick/subdir.mk
 -include Src/CortexM3/SCB/subdir.mk
 -include Src/CortexM3/NVIC/subdir.mk

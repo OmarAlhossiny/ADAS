@@ -25,8 +25,8 @@ SUBDIRS := \
 Src/CortexM3/NVIC \
 Src/CortexM3/SCB \
 Src/CortexM3/SysTick \
-Src/MCAL/GPIO \
-Src/MCAL/RCC \
+Src/HAL/GPIO \
+Src/HAL/RCC \
 Src \
 Startup \
 

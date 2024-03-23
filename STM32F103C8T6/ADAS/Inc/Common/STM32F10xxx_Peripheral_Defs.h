@@ -14,9 +14,13 @@
 /**********************************Include section end*************************************/
 
 /**********************************Macro declaration start*********************************/
+/******************************Embedded Flash memory*****************************/
+#define FLASH_ACR                                            (uint_32 *)0x40022000UL
 
+#define FLASH_ACR_LATENCY_POS                                0x00000000UL
+#define FLASH_ACR_LATENCY_MASK                               0x00000007UL
 /**************************************RCC***************************************/
-#define RCC_BASE                            				 0x40021000
+#define RCC_BASE                            				 0x40021000UL
 #define RCC                                 				 ((RCC_Types *)RCC_BASE)
 
 #define RCC_PLL_MUL_POS                     				 0x12UL

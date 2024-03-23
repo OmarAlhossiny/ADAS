@@ -11,10 +11,10 @@
 #define MAIN_H_
 
 /**********************************Include section start***********************************/
-#include <MCAL/GPIO/gpio.h>
-#include <MCAL/RCC/rcc.h>
 #include <Common/STM32F10xxx_HAL_Def.h>
 #include <CortexM3/SysTick/Cortex-M3_SysTick.h>
+#include <HAL/GPIO/gpio.h>
+#include <HAL/RCC/rcc.h>
 /**********************************Include section end*************************************/
 
 /**********************************Macro declaration start*********************************/

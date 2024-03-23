@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;ADAS/Inc/MCAL&apos; to &apos;HAL&apos;" description="Rename resource &apos;MCAL&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Inc/MCAL" name="HAL" stamp="1711200460932" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;ADAS/Src/MCAL&apos; to &apos;HAL&apos;" description="Rename resource &apos;MCAL&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Src/MCAL" name="HAL" stamp="1711200468481" updateReferences="true"/>
+</session>
