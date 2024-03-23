@@ -17,6 +17,7 @@
 /**********************************Include section end*************************************/
 
 /**********************************Macro declaration start*********************************/
+#define ZERO_INIT     0x00
 
 /**********************************Macro declaration end***********************************/
 
@@ -28,7 +29,7 @@
 typedef char uint_8;
 typedef short uint_16;
 typedef long uint_32;
-
+typedef uint_8 Std_ReturnType;
 typedef enum
 {
 	HAL_OK = 0,
