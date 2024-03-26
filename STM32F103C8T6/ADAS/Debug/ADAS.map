@@ -498,13 +498,13 @@ Discarded input sections
                 0x0000000000000000       0x42 ./Src/HAL/Timer/hal_tim2.o
  .text.Timer2_Read_Value
                 0x0000000000000000       0x36 ./Src/HAL/Timer/hal_tim2.o
- .debug_info    0x0000000000000000      0x36c ./Src/HAL/Timer/hal_tim2.o
- .debug_abbrev  0x0000000000000000      0x150 ./Src/HAL/Timer/hal_tim2.o
+ .debug_info    0x0000000000000000      0x349 ./Src/HAL/Timer/hal_tim2.o
+ .debug_abbrev  0x0000000000000000      0x163 ./Src/HAL/Timer/hal_tim2.o
  .debug_aranges
                 0x0000000000000000       0x38 ./Src/HAL/Timer/hal_tim2.o
  .debug_rnglists
                 0x0000000000000000       0x25 ./Src/HAL/Timer/hal_tim2.o
- .debug_macro   0x0000000000000000      0x174 ./Src/HAL/Timer/hal_tim2.o
+ .debug_macro   0x0000000000000000      0x178 ./Src/HAL/Timer/hal_tim2.o
  .debug_macro   0x0000000000000000      0xaa2 ./Src/HAL/Timer/hal_tim2.o
  .debug_macro   0x0000000000000000       0x22 ./Src/HAL/Timer/hal_tim2.o
  .debug_macro   0x0000000000000000       0x5b ./Src/HAL/Timer/hal_tim2.o
@@ -535,9 +535,9 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x29 ./Src/HAL/Timer/hal_tim2.o
  .debug_macro   0x0000000000000000      0x545 ./Src/HAL/Timer/hal_tim2.o
  .debug_macro   0x0000000000000000       0x40 ./Src/HAL/Timer/hal_tim2.o
- .debug_macro   0x0000000000000000      0x470 ./Src/HAL/Timer/hal_tim2.o
- .debug_line    0x0000000000000000      0x75e ./Src/HAL/Timer/hal_tim2.o
- .debug_str     0x0000000000000000     0xa075 ./Src/HAL/Timer/hal_tim2.o
+ .debug_macro   0x0000000000000000      0x477 ./Src/HAL/Timer/hal_tim2.o
+ .debug_line    0x0000000000000000      0x774 ./Src/HAL/Timer/hal_tim2.o
+ .debug_str     0x0000000000000000     0xa006 ./Src/HAL/Timer/hal_tim2.o
  .comment       0x0000000000000000       0x44 ./Src/HAL/Timer/hal_tim2.o
  .debug_frame   0x0000000000000000       0xb0 ./Src/HAL/Timer/hal_tim2.o
  .ARM.attributes

@@ -8,6 +8,8 @@
 
 
 #include <HAL/Timer/hal_tim2.h>
+#include <HAL/Timer/timer_gen_config.h>
+
 
 /*				* Interrupt Configurations *
 #if TIMER2_INTERRUPT_FEATURE_ENABLE==INTERRUPT_FEATURE_ENABLE
@@ -23,14 +25,14 @@ Std_ReturnType Timer2_Init(const timer2_t *_timer){
         ret = HAL_NOT_OK;
     }
     else{
-    	TIMER2_DISABLE_COUNTER();
+    	TIMER_DISABLE_COUNTER();
 
         timer2_preload = _timer->timer2_preload_value;
 
 /* Interrupt Configurations */
 
 
-        TIMER2_ENABLE_COUNTER();
+        TIMER_ENABLE_COUNTER();
         ret = HAL_OK;
     }
     return ret;
@@ -42,7 +44,7 @@ Std_ReturnType Timer2_DeInit(const timer2_t *_timer){
         ret = HAL_NOT_OK;
     }
     else{
-    	TIMER2_DISABLE_COUNTER();
+    	TIMER_DISABLE_COUNTER();
 /*      	* Interrupt Configurations *
 #if TIMER2_INTERRUPT_FEATURE_ENABLE==INTERRUPT_FEATURE_ENABLE
         TIMER2_InterruptDisable();
@@ -71,6 +73,7 @@ Std_ReturnType Timer2_Read_Value(const timer2_t *_timer, uint_16 *_value){
         ret = HAL_NOT_OK;
     }
     else{
+
     	*_value = TIMER->CNT;
         ret = HAL_OK;
     }
